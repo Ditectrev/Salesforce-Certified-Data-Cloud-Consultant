@@ -282,3 +282,123 @@ They do not allow activation of new records.
 - [ ] Loyalty Identification object.
 - [ ] Individual object.
 - [ ] Contact Identification object.
+
+### A consultant has an activation that is set to publish every 12 hours, but has discovered that updates to the data prior to activation are delayed by up to 24 hours. Which two areas should a consultant review to troubleshoot this issue? (Choose two.)
+
+- [ ] Review data transformations to ensure they're run after calculated insights.
+- [ ] Review calculated insights to make sure they're run after the segments are refreshed.
+- [x] Review segments to ensure they’re refreshed after the data is ingested.
+- [x] Review calculated insights to make sure they're run before segments are refreshed.
+
+### Cumulus Financial wants to segregate Salesforce CRM Account data based on Country for its Data Cloud users. What should the consultant do to accomplish this?
+
+- [ ] Use Salesforce sharing rules on the Account object to filter and segregate records based on Country.
+- [ ] Use formula fields based on the Account Country field to filter incoming records.
+- [ ] Use streaming transforms to filter out Account data based on Country and map to separate data model objects accordingly.
+- [x] Use the data spaces feature and apply filtering on the Account data lake object based on Country.
+
+### A customer notices that their consolidation rate has recently increased. They contact the consultant to ask why. What are two likely explanations for the increase? (Choose two.)
+
+- [ ] Duplicates have been removed from source system data streams.
+- [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
+- [x] New data sources have been added to Data Cloud that largely overlap with the existing profiles.
+- [ ] Identity resolution rules have been removed to reduce the number of matched profiles.
+
+### Data Cloud consultant recently discovered that their identity resolution process is matching individuals that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
+
+- [ ] Modify the existing ruleset to use fewer matching rules, run the ruleset and review the updated results, then adjust as needed until the individuals are matching correctly.
+- [x] Create and run a new ruleset with stricter matching criteria, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
+- [ ] Create and run a new ruleset with fewer matching rules, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
+- [ ] Modify the existing ruleset with stricter matching criteria, run the ruleset and review the updated results, then adjust as needed until the individuals are matching correctly.
+
+### Data Cloud receives a nightly file of all ecommerce transactions from the previous day. Several segments and activations depend upon calculated insights from the updated data in order to maintain accuracy in the customer's scheduled campaign messages. What should the consultant do to ensure the ecommerce data is ready for use for each of the scheduled activations?
+
+- [ ] Ensure the activations are set to Incremental Activation and automatically publish every hour.
+- [x] Use Flow to trigger a change data event on the ecommerce data to refresh calculated insights and segments before the activations are scheduled to run.
+- [ ] Set a refresh schedule for the calculated insights to occur every hour.
+- [ ] Ensure the segments are set to Rapid Publish and set to refresh every hour.
+
+### A client wants to bring in loyalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?
+
+- [x] Use batch transforms to create a second data lake object.
+- [ ] Create a junction object in Salesforce CRM and modify the ingestion strategy.
+- [ ] Clone the data source object.
+- [ ] Create a data kit from the data lake object and deploy it to the same Data Cloud org.
+
+### Which operator should a consultant use to create a segment for a birthday campaign that is evaluated daily?
+
+- [ ] Is Today.
+- [ ] Is Birthday.
+- [ ] Is Between.
+- [x] Is Anniversary Of.
+
+### A new user of Data Cloud only needs to be able to review individual rows of ingested data and validate that it has been modeled successfully to its linked data model object. The user will also need to make changes if required. What is the minimum permission set needed to accommodate this use case?
+
+- [ ] Data Cloud for Marketing Specialist.
+- [ ] Data Cloud Admin.
+- [x] Data Cloud for Marketing Data Aware Specialist.
+- [ ] Data Cloud User.
+
+### A consultant is discussing the benefits of Data Cloud with a customer that has multiple disjointed data sources. Which two functional areas should the consultant highlight in relation to managing customer data? (Choose two.)
+
+- [x] Unified Profiles.
+- [x] Data Harmonization.
+- [ ] Master Data Management.
+- [ ] Data Marketplace.
+
+### Northern Trail Outfitters is using the Marketing Cloud Starter Data Bundles to bring Marketing Cloud data into Data Cloud. What are two of the available datasets in Marketing Cloud Starter Data Bundles? (Choose two.)
+
+- [x] MobilePush.
+- [ ] Personalization.
+- [x] MobileConnect.
+- [ ] Loyalty Management.
+
+### Northern Trail Outfitters unifies individuals in its Data Cloud instance. Which three features can the consultant use to validate the data on a unified profile? (Choose three.)
+
+- [x] Query API.
+- [x] Data Explorer.
+- [ ] Identity Resolution.
+- [ ] Data Actions.
+- [x] Profile Explorer.
+
+### A consultant is integrating an Amazon S3 activated campaign with the customer's destination system. In order for the destination system to find the metadata about the segment, which file on the S3 will contain this information for processing?
+
+- [x] The .json file.
+- [ ] The .txt file.
+- [ ] The .zip file.
+- [ ] The .csv file.
+
+### Which information is provided in a .csv file when activating to Amazon S3?
+
+- [x] The activated data payload.
+- [ ] An audit log showing the user who activated the segment and when it was activated.
+- [ ] The manifest of origin sources within Data Cloud.
+- [ ] The metadata regarding the segment definition.
+
+### Which two common use cases can be addressed with Data Cloud? (Choose two.)
+
+- [ ] Safeguard critical business data by serving as a centralized system for backup and disaster recovery.
+- [x] Harmonize data from multiple sources with a standardized and extendable data model.
+- [x] Understand and act upon customer data to drive more relevant experiences.
+- [ ] Govern enterprise data lifecycle through a centralized set of policies and processes.
+
+### Northern Trail Outfitters (NTO) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation? (Choose two.)
+
+- [ ] Select contact points.
+- [ ] Add additional attributes.
+- [ ] Choose a segment.
+- [ ] Add the calculated insight in the activation.
+
+### Which data model subject area should be used for any Organization, Individual, or Member in the Customer 360 data model?
+
+- [x] Party.
+- [ ] Global Account.
+- [ ] Membership.
+- [ ] Engagement.
+
+### The Salesforce CRM Connector is configured and the Case object data stream is set up. Subsequently, a new custom field named Business Priority is created on the Case object in Salesforce CRM. However, the new field is not available when trying to add it to the data stream. Which statement addresses the cause of this issue?
+
+- [ ] The Salesforce Data Loader application should be used to perform a bulk upload from a desktop.
+- [ ] After 24 hours when the data stream refreshes, it will automatically include any new fields that were added to the Salesforce CRM.
+- [x] The Salesforce Integration User is missing Read permissions on the newly created field.
+- [ ] Custom fields on the Case object are not supported for ingesting into Data Cloud.

@@ -283,6 +283,13 @@ They do not allow activation of new records.
 - [ ] Individual object.
 - [ ] Contact Identification object.
 
+### What is the result of a segmentation criteria filtering on City | Is Equal To | 'San José'?
+
+- [ ] Cities containing 'San Jose', ’San José', 'san josé, or 'san jose'.
+- [x] Cities only containing 'San José or 'san josé'.
+- [ ] Cities only containing 'San José' or 'San Jose'.
+- [ ] Cities only containing 'San Jose' or 'san jose'.
+
 ### A consultant has an activation that is set to publish every 12 hours, but has discovered that updates to the data prior to activation are delayed by up to 24 hours. Which two areas should a consultant review to troubleshoot this issue? (Choose two.)
 
 - [ ] Review data transformations to ensure they're run after calculated insights.
@@ -303,6 +310,13 @@ They do not allow activation of new records.
 - [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
 - [x] New data sources have been added to Data Cloud that largely overlap with the existing profiles.
 - [ ] Identity resolution rules have been removed to reduce the number of matched profiles.
+
+### What is Data Cloud's primary value to customers?
+
+- [x] To provide a unified view of a customer and their related data.
+- [ ] To create personalized campaigns by listening, understanding, and acting on customer behavior.
+- [ ] To connect all systems with a golden record.
+- [ ] To create a single source of truth for all anonymous data.
 
 ### Data Cloud consultant recently discovered that their identity resolution process is matching individuals that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
 
@@ -339,12 +353,26 @@ They do not allow activation of new records.
 - [x] Data Cloud for Marketing Data Aware Specialist.
 - [ ] Data Cloud User.
 
+### A customer is trying to activate data from Data Cloud to an Amazon S3 Cloud File Storage Bucket. Which authentication type should the consultant recommend to connect to the S3 bucket from Data Cloud?
+
+- [ ] Use a JWT Token generated on S3.
+- [ ] Use an S3 Private Key Certificate.
+- [ ] Use an S3 Encrypted Username and Password.
+- [x] Use an S3 Access Key and Secret Key.
+
 ### A consultant is discussing the benefits of Data Cloud with a customer that has multiple disjointed data sources. Which two functional areas should the consultant highlight in relation to managing customer data? (Choose two.)
 
 - [x] Unified Profiles.
 - [x] Data Harmonization.
 - [ ] Master Data Management.
 - [ ] Data Marketplace.
+
+### What does it mean to build a trust-based, first-party data asset?
+
+- [ ] To ensure opt-in consents are collected for all email marketing as required by law.
+- [x] To provide transparency and security for data gathered from individuals who provide consent for its use and receive value in exchange.
+- [ ] To obtain competitive data from reliable sources through interviews, surveys, and polls.
+- [ ] To provide trusted, first-party data in the Data Cloud Marketplace that follows all compliance regulations.
 
 ### Northern Trail Outfitters is using the Marketing Cloud Starter Data Bundles to bring Marketing Cloud data into Data Cloud. What are two of the available datasets in Marketing Cloud Starter Data Bundles? (Choose two.)
 
@@ -368,7 +396,14 @@ They do not allow activation of new records.
 - [ ] The .zip file.
 - [ ] The .csv file.
 
-### Which information is provided in a .csv file when activating to Amazon S3?
+### Cumulus Financial uses Data Cloud to segment banking customers and activate them for direct mail via a Cloud File Storage activation. The company also wants to analyze individuals who have been in the segment within the last 2 years. Which Data Cloud component allows for this?
+
+- [ ] Calculated insights.
+- [x] Segment membership data model object.
+- [ ] Segment exclusion.
+- [ ] Nested segments.
+
+ ### Which information is provided in a .csv file when activating to Amazon S3?
 
 - [x] The activated data payload.
 - [ ] An audit log showing the user who activated the segment and when it was activated.
@@ -389,6 +424,13 @@ They do not allow activation of new records.
 - [ ] Choose a segment.
 - [ ] Add the calculated insight in the activation.
 
+### During an implementation project, a consultant completed ingestion of all data streams for their customer. Prior to segmenting and acting on that data, which additional configuration is required?
+
+- [ ] Data Mapping.
+- [x] Identity Resolution.
+- [ ] Data Activation.
+- [ ] Calculated Insights.
+
 ### Which data model subject area should be used for any Organization, Individual, or Member in the Customer 360 data model?
 
 - [x] Party.
@@ -402,3 +444,10 @@ They do not allow activation of new records.
 - [ ] After 24 hours when the data stream refreshes, it will automatically include any new fields that were added to the Salesforce CRM.
 - [x] The Salesforce Integration User is missing Read permissions on the newly created field.
 - [ ] Custom fields on the Case object are not supported for ingesting into Data Cloud.
+
+### Cumulus Financial uses Service Cloud as its CRM and stores mobile phone, home phone, and work phone as three separate fields for its customers on the Contact record. The company plans to use Data Cloud and ingest the Contact object via the CRM Connector. What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?
+
+- [ ] Ingest the Contact object and map the Work Phone, Mobile Phone, and Home Phone to the Contact Point Phone data map object from the Contact data stream by adding custom fields for Work and Home Phone.
+- [x] Ingest the Contact object and use streaming transforms to normalize the phone numbers from the Contact data stream into a separate Phone data lake object (DLO) that contains three rows, and then map this new DLO to the Contact Point Phone data map object.
+- [ ] Ingest the Contact object and create formula fields in the Contact data stream on the phone numbers, and then map to the Contact Point Phone data map object.
+- [ ] Ingest the Contact object and then create a calculated insight to normalize the phone numbers, and then map to the Contact Point Phone data map object.

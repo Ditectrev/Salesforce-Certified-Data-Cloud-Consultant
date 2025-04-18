@@ -36,11 +36,11 @@ first or last name.
 - [ ] Data Mapping.
 - [x] Identity Resolution.
 
-### A customer has a Master Customer table from their CRM to ingest into Data Cloud. The table contains a name and primary email address, along with other personally Identifiable information (PII). How should the fields be mapped to support identity resolution?
+### A customer has a Master Customer table from their CRM to ingest into Data Cloud. The table contains a name and primary email address, along with other personally identifiable information (PII). How should the fields be mapped to support identity resolution?
 
 - [ ] Create a new custom object with fields that directly match the incoming table.
 - [ ] Map all fields to the Customer object.
-- [x] Map name to the Individual object and email address to the Contact Phone Email object.
+- [x] Map name to the Individual object and email address to the Contact Point Email object.
 - [ ] Map all fields to the Individual object, adding a custom field for the email address.
 
 ### A customer wants to use the transactional data from their data warehouse in Data Cloud. They are only able to export the data via an SFTP site. How should the file be brought into Data Cloud?
@@ -48,7 +48,7 @@ first or last name.
 - [x] Ingest the file with the SFTP Connector.
 - [ ] Ingest the file through the Cloud Storage Connector.
 - [ ] Manually import the file using the Data Import Wizard.
-- [ ] Use Salesforce's Dataloader application to perform a bulk upload from a desktop.
+- [ ] Use Salesforce's Data Loader application to perform a bulk upload from a desktop.
 
 ### Cumulus Financial is currently using Data Cloud and ingesting transactional data from its backend system via an S3 Connector in upsert mode. During the initial setup six months ago, the company created a formula field in Data Cloud to create a custom classification. It now needs to update this formula to account for more classifications. What should the consultant keep in mind with regard to formula field updates when using the S3 Connector?
 
@@ -546,9 +546,9 @@ They do not allow activation of new records.
 ### A customer notices that their consolidation rate has recently increased. They contact the consultant to ask why. What are two likely explanations for the increase? Choose 2 answers
 
 - [x] New data sources have been added to Data Cloud that largely overlap with the existing profiles.
+- [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
 - [ ] Duplicates have been removed from source system data streams.
 - [ ] Identity resolution rules have been removed to reduce the number of matched profiles.
-- [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
 
 ### A client want to bring in lojalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?
 
@@ -557,7 +557,7 @@ They do not allow activation of new records.
 - [ ] Create a junction object in Salesforce CRM and modify the ingestion strategy.
 - [ ] Create a data kit from the data lake object and deploy it to the same Data Cloud org.
 
-### A segment fails to refresh with the error "Segment references too many data lake objects (DLOS)". Which two troubleshooting tips should help remedy this issue? Choose 2 answers
+### A segment fails to refresh with the error "Segment references too many data lake objects (DLOs)". Which two troubleshooting tips should help remedy this issue? Choose 2 answers
 
 - [ ] Split the segment into smaller segments.
 - [ ] Use calculated insights in order to reduce the complexity of the segmentation query.
@@ -578,11 +578,11 @@ They do not allow activation of new records.
 - [ ] All individual data will be removed.
 - [ ] All source profile data will be removed.
 
-### Northern Trail Otfitters uploads new customer data to an Amazon S3 Bucket on a daily basis to be ingested in Data Cloud. In what order should each process be run to ensure that freshly imported data is ready and available to use for any segment?
+### Northern Trail Outfitters uploads new customer data to an Amazon S3 Bucket on a daily basis to be ingested in Data Cloud. In what order should each process be run to ensure that freshly imported data is ready and available to use for any segment?
 
 - [ ] Calculated Insight > Refresh Data Stream > Identity Resolution.
 - [ ] Refresh Data Stream > Calculated Insight > Identity Resolution.
-- [ ] Identity Resolution > Refresh Data Strean > Calculated Insight.
+- [ ] Identity Resolution > Refresh Data Stream > Calculated Insight.
 - [x] Refresh Data Stream > Identity Resolution > Calculated Insight.
 
 ### Which two requirements must be met for a calculated insight to appear in the segmentation canvas? Choose 2 answers
@@ -592,17 +592,17 @@ They do not allow activation of new records.
 - [ ] The metrics of the calculated insights must only contain numeric values.
 - [ ] The primary key of the segmented table must be a metric in the calculated insight.
 
-### A customer requests that their personal data be deleted. Which action should the consultant take to accommodate this requests in Data Cloud?
+### A customer requests that their personal data be deleted. Which action should the consultant take to accommodate this request in Data Cloud?
 
 - [ ] Use a streaming API call to delete the customer's information.
 - [ ] Use Profile Explorer to delete the customer data from Data Cloud.
-- [ ] Use Consent API to requests deletion of the customer's information.
+- [ ] Use Consent API to request deletion of the customer's information.
 - [x] Use the Data Rights Subject Request tool to request deletion of the customer's information.
 
 ### What does the Ignore Empty Value option do in identity resolution?
 
 - [ ] Ignores empty fields when running any custom match rules.
-- [x] Ignores empty firlds when running reconciliation rules.
+- [x] Ignores empty fields when running reconciliation rules.
 - [ ] Ignores Individual object records with empty fields when running identity resolution rules.
 - [ ] Ignores empty fields when running the standard match rules.
 
@@ -692,7 +692,7 @@ They do not allow activation of new records.
 
 ### A Data Cloud consultant recently added a new data source and mapped some of the data to a new custom data model object (DMO) that they want to use for creating segments. However, they cannot view the newly created DMO when trying to create a new segment. What is the cause of this issue?
 
-- [ ] Data has not yes been ingested into the DMO.
+- [ ] Data has not yet been ingested into the DMO.
 - [x] The new DMO is not of category Profile.
 - [ ] The new DMO does not have a relationship to the individual DMO.
 - [ ] Segmentation is only supported for the Individual and Unified Individual DMOs.
@@ -770,7 +770,7 @@ They do not allow activation of new records.
 
 ### A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members. Which two areas should the consultant review to help troubleshoot this issue? Choose 2 answers
 
-- [x] The related engagement events accurred within the last 90 days.
+- [x] The related engagement events occurred within the last 90 days.
 - [ ] The activations are referencing segments that segment on profile data rather than engagement data.
 - [x] The correct path is selected for the related attributes.
 - [ ] The activated profiles have a Unified Contact Point.

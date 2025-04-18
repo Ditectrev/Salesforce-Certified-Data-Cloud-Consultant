@@ -15,7 +15,7 @@ first or last name.
 - [x] Segment membership data model object.
 - [ ] Calculated insights.
 
-### Northern Trail Outfitters (NTD) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target.
+### Northern Trail Outfitters (NTO) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target.
 
 - [ ] Add additional attributes.
 - [x] Choose a segment.
@@ -36,7 +36,7 @@ first or last name.
 - [ ] Data Mapping.
 - [x] Identity Resolution.
 
-### A customer has a Master Customer table from their CRM to ingest into Data Cloud. The table contains a name and primary email address, along with other personally Identifiable information (Pll). How should the fields be mapped to support identity resolution?
+### A customer has a Master Customer table from their CRM to ingest into Data Cloud. The table contains a name and primary email address, along with other personally Identifiable information (PII). How should the fields be mapped to support identity resolution?
 
 - [ ] Create a new custom object with fields that directly match the incoming table.
 - [ ] Map all fields to the Customer object.
@@ -172,9 +172,9 @@ coming from the CRM, and Marketing ID as the identification name for individuals
 
 ### Which two dependencies prevent a data stream from being deleted? Choose 2 answers
 
-- [x] The underlying data lake object is used in activation.
-- [x] The underlying data lake object is used in a data transform.
 - [x] The underlying data lake object is mapped to a data model object.
+- [x] The underlying data lake object is used in a data transform.
+- [ ] The underlying data lake object is used in activation.
 - [ ] The underlying data lake object is used in segmentation.
 
 ### What is Data Cloud's primary value to customers?
@@ -200,10 +200,10 @@ coming from the CRM, and Marketing ID as the identification name for individuals
 
 ### During a privacy law discussion with a customer, the customer indicates they need to honor requests for the right to be forgotten. The consultant determines that Consent API will solve this business need. Which two considerations should the consultant inform the customer about? Choose 2 answers
 
-- [ ] Data deletion requests are reprocessed at 30, 60, and 90 days.
+- [x] Data deletion requests are reprocessed at 30, 60, and 90 days.
 - [ ] Data deletion requests are processed within 1 hour.
 - [x] Data deletion requests are submitted for Individual profiles.
-- [x] Data deletion requests submitted to Data Cloud are passed to all connected Salesforce clouds.
+- [ ] Data deletion requests submitted to Data Cloud are passed to all connected Salesforce clouds.
 
 ### Which permission setting should a consultant check if the custom Salesforce CRM object is not available in New Data Stream configuration?
 
@@ -221,9 +221,9 @@ coming from the CRM, and Marketing ID as the identification name for individuals
 
 ### Which two steps should a consultant take if a successfully configured Amazon S3 data stream fails to refresh with a "NO FILE FOUND" error message? Choose 2 answers
 
+- [x] Check if the file exists in the specified bucket location.
 - [x] Check if correct permissions are configured for the Data Cloud user.
 - [ ] Check if the Amazon S3 data source is enabled in Data Cloud Setup.
-- [x] Check If the file exists in the specified bucket location.
 - [ ] Check if correct permissions are configured for the S3 user.
 
 ### What is the result of a segmentation criteria filtering on City | Is Equal To | 'San José'?
@@ -242,10 +242,10 @@ coming from the CRM, and Marketing ID as the identification name for individuals
 
 ### What should a user do to pause a segment activation with the intent of using that segment again?
 
-- [x] Deactivate the segment.
+- [ ] Deactivate the segment.
 - [ ] Delete the segment.
 - [ ] Skip the activation.
-- [ ] Stop the publish schedule.
+- [x] Stop the publish schedule.
 
 ### Which configuration supports separate Amazon S3 buckets for data ingestion and activation?
 
@@ -287,7 +287,7 @@ They do not allow activation of new records.
 
 - [ ] Review data transformations to ensure they're run after calculated insights.
 - [ ] Review calculated insights to make sure they're run after the segments are refreshed.
-- [x] Review segments to ensure they’re refreshed after the data is ingested.
+- [x] Review segments to ensure they're refreshed after the data is ingested.
 - [x] Review calculated insights to make sure they're run before segments are refreshed.
 
 ### Cumulus Financial wants to segregate Salesforce CRM Account data based on Country for its Data Cloud users. What should the consultant do to accomplish this?
@@ -355,9 +355,9 @@ They do not allow activation of new records.
 
 ### Northern Trail Outfitters unifies individuals in its Data Cloud instance. Which three features can the consultant use to validate the data on a unified profile? (Choose three.)
 
-- [x] Query API.
+- [ ] Query API.
 - [x] Data Explorer.
-- [ ] Identity Resolution.
+- [x] Identity Resolution.
 - [ ] Data Actions.
 - [x] Profile Explorer.
 
@@ -384,9 +384,9 @@ They do not allow activation of new records.
 
 ### Northern Trail Outfitters (NTO) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation? (Choose two.)
 
-- [ ] Select contact points.
+- [x] Select contact points.
 - [ ] Add additional attributes.
-- [ ] Choose a segment.
+- [x] Choose a segment.
 - [ ] Add the calculated insight in the activation.
 
 ### Which data model subject area should be used for any Organization, Individual, or Member in the Customer 360 data model?
@@ -454,7 +454,7 @@ They do not allow activation of new records.
 
 ### What is Data Cloud's primary value to costomers?
 
-- [ ] To provide a unified view of a customer and their related data.
+- [x] To provide a unified view of a customer and their related data.
 - [ ] To connect all systems with a golden record.
 - [ ] To create a single source of truth for all anonymous data.
 - [ ] To create personalized campaings by listening, understanding, and acting on customer behavior.
@@ -464,25 +464,25 @@ They do not allow activation of new records.
 - [ ] Data Activation.
 - [ ] Calculated Insights.
 - [ ] Data Mapping.
-- [ ] Identity Resolution.
+- [x] Identity Resolution.
 
 ### Which two steps should a consultant take if a successfully configured Amazon S3 data stream fails to refresh with a "NO FILE FOUND" erorr message? Choose 2 answers
 
-- [ ] Check if correct permissions are configured for the Data Cloud user.
+- [x] Check if the file exists in the specified bucket location.
+- [x] Check if correct permissions are configured for the Data Cloud user.
 - [ ] Check if the Amazon S3 data source is enabled in Data Cloud Setup.
-- [ ] Check If the file exists in the specified bucket location.
 - [ ] Check if correct permissions are configured for the S3 user.
 
 ### A consultant is discussing the benefist of Data Cloud with a customer that has multiple disjointed data sources. Which two functional areas should the consultant highlight in relation to managing customer data? Choose 2 answers
 
-- [ ] Data Harmonization.
-- [ ] Unified Profiles.
+- [x] Data Harmonization.
+- [x] Unified Profiles.
 - [ ] Master Data Management.
 - [ ] Data Marketplace.
 
 ### A retailer wants to unify profiles using Loyalty ID which is different than the unique ID of their customers. Which object should  the consultant use in identity resolution to perform exact match rules on the Loyalty ID?
 
-- [ ] Party Identification object.
+- [x] Party Identification object.
 - [ ] Loyalty Identification object.
 - [ ] Individual object.
 - [ ] Contact Identification object.
@@ -492,33 +492,33 @@ They do not allow activation of new records.
 - [ ] Data Cloud will initiate a full refresh of data from $3 and will update the formula on all records.
 - [ ] Data Cloud will only update the formula on a go-forward basis for new records.
 - [ ] Data Cloud does not support formula field updates for data streams of type upsert.
-- [ ] Data Cloud will update the formula for all records at the next incremental upsert refresh.
+- [x] Data Cloud will update the formula for all records at the next incremental upsert refresh.
 
 ### During a privacy law discusion with a customer, the customer indicates they need to honor requests for the right to be forgotten. The consultant determines that Consent API will solve this business need. Which two considerations should the consultant inform the customer about? Choose 2 answers
 
-- [ ] Data deletion requests are reprocessed at 30, 60, and 90 days.
+- [x] Data deletion requests are reprocessed at 30, 60, and 90 days.
 - [ ] Data deletion requests are processed within 1 hour.
 - [ ] Data deletion requests are submitted for Individual profiles.
 - [ ] Data deletion requests submitted to Data Cloud are all connected Salesforce clouds.
 
 ### To import campaign members into a campaign in Salesforce CRM, a user wants to export the segment to Amazon S3. The resulting file needs to include the Salesforce CRM Campaing ID in the name. What are two ways to achieve this outcome? Choose 2 answers
 
-- [ ] Include campaign identifier in the activation name.
+- [x] Include campaign identifier in the activation name.
 - [ ] Hard code the campaign identifier as a new attribute in the campaign activation.
-- [ ] Include campaign identifier in the filename specification.
+- [x] Include campaign identifier in the filename specification.
 - [ ] Include campaign identifier in the segment name.
 
 ### Northern Trail Qutfitters wants to be able to calculate each customer's lifetime value (LTV) but also create breakdowns of the revenue sourced by website, mobile app, and retail channels. What should a consultant use to address this use case in Data Cloud?
 
 - [ ] Flow Orchestration.
 - [ ] Nested segments.
-- [ ] Metrics on metrics.
+- [x] Metrics on metrics.
 - [ ] Streaming data transform.
 
 ### A consultant wants to ensure that every segment managed by multiple brand teams adheres to the same set of axclusion criteria, that are updated on a monthly basis. What is the most efficient option to allow for this capability?
 
 - [ ] Create, publish, and deploy a data kit.
-- [ ] Create a reusable container block with common criteria.
+- [x] Create a reusable container block with common criteria.
 - [ ] Create a nested segment.
 - [ ] Create a segment and copy it for each brand.
 
@@ -531,7 +531,7 @@ They do not allow activation of new records.
 
 ### A user wants to be able to create a multi-dimensional metric to identify unified individual lifetime value (LTV). Which sequence of data model object (DMO) joins is necessary within the calculated Insight to enable this calculation?
 
-- [ ] Unified Individual > Unified Link Individual > Sales Order.
+- [x] Unified Individual > Unified Link Individual > Sales Order.
 - [ ] Unified Individual > Individual > Sales Order.
 - [ ] Sales Order > Individual > Unified Individual.
 - [ ] Sales Order > Unified Individual.
@@ -539,21 +539,21 @@ They do not allow activation of new records.
 ### Cumulus Financial created a segment called Multiple Investments that contains individuals who have invested in two or more mutual funds. The company plans to send an email to this segment regarding a new mutual fund offering, and wants to personalize the email content with information about each customer's current mutual fund investments. How should the Data Cloud consultant configure this activation?
 
 - [ ] Include Fund Type equal to "Mutual Fund" as a related attribute. Configure an activation based on the new segment with no additional attributes.
-- [ ] Choose the Multiple Investments segment, choose the Email contact point, add related attribute Fund Name, and add related attribute filter for Fund Type equal to "Mutual Fund".
+- [x] Choose the Multiple Investments segment, choose the Email contact point, add related attribute Fund Name, and add related attribute filter for Fund Type equal to "Mutual Fund".
 - [ ] Choose the Multiple Investments segment, choose the Email contact point, and add related attribute Fund Type.
 - [ ] Include Fund Name and Fund Type by default for post processing in the target system.
 
 ### A customer notices that their consolidation rate has recently increased. They contact the consultant to ask why. What are two likely explanations for the increase? Choose 2 answers
 
-- [ ] New data sources have been added to Data Cloud that largely overlap with the existing profiles.
+- [x] New data sources have been added to Data Cloud that largely overlap with the existing profiles.
 - [ ] Duplicates have been removed from source system data streams.
 - [ ] Identity resolution rules have been removed to reduce the number of matched profiles.
-- [ ] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
+- [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
 
 ### A client want to bring in lojalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?
 
 - [ ] Clone the data source object.
-- [ ] Use batch transforms to create a second data lake object.
+- [x] Use batch transforms to create a second data lake object.
 - [ ] Create a junction object in Salesforce CRM and modify the ingestion strategy.
 - [ ] Create a data kit from the data lake object and deploy it to the same Data Cloud org.
 
@@ -561,21 +561,21 @@ They do not allow activation of new records.
 
 - [ ] Split the segment into smaller segments.
 - [ ] Use calculated insights in order to reduce the complexity of the segmentation query.
-- [ ] Refine segmentation criteria to limit up to five custom data model objects (DMOs).
-- [ ] Space out the segment schedules to reduce DLO load.
+- [x] Refine segmentation criteria to limit up to five custom data model objects (DMOs).
+- [x] Space out the segment schedules to reduce DLO load.
 
 ### An organization wants to enable users with the ability to identify and select text attributes from a picklist of options. Which Data Cloud feature should help with this use case?
 
-- [ ] Value suggestion.
+- [x] Value suggestion.
 - [ ] Data harmonization.
 - [ ] Transformation formulas.
 - [ ] Global picklists.
 
 ### A consultant is working in a customer's Data Cloud org and is asked to delete the existing identity resolution ruleset. Which two impacts should the consultant communicate as a result of this action? Choose 2 answers
 
+- [x] Unified customer data associated with this ruleset will be removed.
+- [x] Dependencies on data model objects will be removed.
 - [ ] All individual data will be removed.
-- [ ] Unified customer data associated with this ruleset will be removed.
-- [ ] Dependencies on data model objects will be removed.
 - [ ] All source profile data will be removed.
 
 ### Northern Trail Otfitters uploads new customer data to an Amazon S3 Bucket on a daily basis to be ingested in Data Cloud. In what order should each process be run to ensure that freshly imported data is ready and available to use for any segment?
@@ -583,46 +583,46 @@ They do not allow activation of new records.
 - [ ] Calculated Insight > Refresh Data Stream > Identity Resolution.
 - [ ] Refresh Data Stream > Calculated Insight > Identity Resolution.
 - [ ] Identity Resolution > Refresh Data Strean > Calculated Insight.
-- [ ] Refresh Data Stream > Identity Resolution > Calculated Insight.
+- [x] Refresh Data Stream > Identity Resolution > Calculated Insight.
 
 ### Which two requirements must be met for a calculated insight to appear in the segmentation canvas? Choose 2 answers
 
+- [x] The calculated insight must contain a dimension including the Individual or Unified Individual ID.
+- [x] The primary key of the segmented table must be a dimension in the calculated insight.
 - [ ] The metrics of the calculated insights must only contain numeric values.
 - [ ] The primary key of the segmented table must be a metric in the calculated insight.
-- [ ] The calculated insight must contain a dimension including the Individual or Unified Individual ld.
-- [ ] The primary key of the segmented table must be a dimension in the calculated insight.
 
 ### A customer requests that their personal data be deleted. Which action should the consultant take to accommodate this requests in Data Cloud?
 
 - [ ] Use a streaming API call to delete the customer's information.
 - [ ] Use Profile Explorer to delete the customer data from Data Cloud.
 - [ ] Use Consent API to requests deletion of the customer's information.
-- [ ] Use the Data Rights Subject Request tool to request deletion of the customer's information.
+- [x] Use the Data Rights Subject Request tool to request deletion of the customer's information.
 
 ### What does the Ignore Empty Value option do in identity resolution?
 
 - [ ] Ignores empty fields when running any custom match rules.
-- [ ] Ignores empty firlds when running reconciliation rules.
+- [x] Ignores empty firlds when running reconciliation rules.
 - [ ] Ignores Individual object records with empty fields when running identity resolution rules.
 - [ ] Ignores empty fields when running the standard match rules.
 
 ### Northern Trail Outfitters (NTO) is configuring an identity resolution ruleset based on Fuzzy Name and Normalized Email. What should NTO do to ensure the best email address is activated?
 
 - [ ] Include Contact Point Email object Is Active field as a match rule.
-- [ ] Use the source priority order in activations to make sure a contact point from the desired source is delivered to the activation target.
+- [x] Use the source priority order in activations to make sure a contact point from the desired source is delivered to the activation target.
 - [ ] Ensure Marketing Cloud is prioritized as the first data source in the Source Priority reconciliation rule.
 - [ ] Set the default reconciliation rule to Last Updated.
 
 ### A customer wants to create segments of users based on their Customer Lifetime Value. However, the source data that will be brought into Data Cloud does not include that key performance indicator (KPI). Which sequence of steps should the consultant follow to achieve this requirement?
 
-- [ ] Ingest Data > Map Data to Data Model > Create Calculated Insight > Use in Segmentation.
+- [x] Ingest Data > Map Data to Data Model > Create Calculated Insight > Use in Segmentation.
 - [ ] Create Calculated Insight > Map Data to Data Model > Ingest Data > Use in Segmentation.
 - [ ] Create Calculated Insight > Ingest Data > Map Data to Data Model > Use in Segmentation.
 - [ ] Ingest Data > Create Calculated Insight > Map Data to Data Model > Use in Segmentation.
 
 ### During discovery, which feature should a consultant highlight for a customer who was multiple data sources and needs to math and reconcile data about individuals into a single unified profile?
 
-- [ ] Data Cleansing.
+- [x] Data Cleansing.
 - [ ] Harmonization.
 - [ ] Data Consolidation.
 - [ ] Identity Resolution.
@@ -630,7 +630,7 @@ They do not allow activation of new records.
 ### Northern Trail Outfitters (NTO) wants to send a promotional campaign for customers that have purchased within the past 6 months. The consultant created a segment to meet this requirement. Now, NTO brings an additional requirement to suppress customers who have made purchases within the last week. What should the consultant use to remove the recent customers?
 
 - [ ] Batch transforms.
-- [ ] Segmentation exclude rules.
+- [x] Segmentation exclude rules.
 - [ ] Related attributes.
 - [ ] Streaming insight.
 
@@ -638,62 +638,62 @@ They do not allow activation of new records.
 
 - [ ] Data Cloud for Marketing Specialist.
 - [ ] Data Cloud Admin.
-- [ ] Data Cloud User.
+- [x] Data Cloud User.
 - [ ] Data Cloud for Marketing Data Aware Specialist.
 
 ### Which data stream category should be assigned to use the data for time-based operations is segmentation and calculated insights?
 
 - [ ] Individual.
 - [ ] Transaction.
-- [ ] Sales Order.
+- [x] Sales Order.
 - [ ] Engagement.
 
 ### Which method should a consultant use when performing aggregations in windows of 15 minutes on data collected via the Interaction SDK or Mobile SDK?
 
 - [ ] Batch transform.
 - [ ] Calculated insight.
-- [ ] Streaming insight.
+- [x] Streaming insight.
 - [ ] Formula fields.
 
 ### A customer has a custom Customer Email c object related to the standard Contact object in Salesforce CRM. This custom object stores the email address a Contact that they want to use for activation. To which data entity is mapped?
 
 - [ ] Contact.
-- [ ] Contact Point_Email.
+- [x] Contact Point_Email.
 - [ ] Custom customer Email__c object.
 - [ ] Individual.
 
 ### During discovery, which feature should a consultant highlight for a customer who has multiple data sources and needs to match and reconcile data about individuals into a single unified profile?
 
 - [ ] Harmonization.
-- [ ] Data Cleansing.
+- [x] Data Cleansing.
 - [ ] Data Consolidation.
 - [ ] Identity Resolution.
 
 ### Every day, Northern Trail Outfitters uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than seven days are automatically deleted. Each file contains a timestamp in a standardizel naming convention. Which two options should a consultant configure when ingesting this data stream? Choose 2 answers
 
 - [ ] Ensure that deletion of old files is enabled.
-- [ ] Ensure the refresh mode is set to "Upsert".
-- [ ] Ensure the filename contains a wildcard to a accommodate the timestamp.
+- [x] Ensure the refresh mode is set to "Upsert".
+- [x] Ensure the filename contains a wildcard to a accommodate the timestamp.
 - [ ] Ensure the refresh mode is set to "Full Refresh".
 
 ### Which solution provides an easy way to ingest Marketing Cloud subscriber profile attributes into Data Cloud on a daily basis?
 
 - [ ] Automation Studio and Profile file API.
 - [ ] Marketing Cloud Connect API.
-- [ ] Marketing Cloud Data extension Data Stream.
+- [x] Marketing Cloud Data extension Data Stream.
 - [ ] Email Studio Started Data Bundle.
 
 ### A customer has a requirement to be able to view the last time each segment was published within their Data Cloud org. Which two features should the consultant recommend to best address this requirement? Choose 2 answers
 
 - [ ] Profile Explorer.
 - [ ] Calculated insight.
-- [ ] Dashboard.
-- [ ] Report.
+- [x] Dashboard.
+- [x] Report.
 
 ### A Data Cloud consultant recently added a new data source and mapped some of the data to a new custom data model object (DMO) that they want to use for creating segments. However, they cannot view the newly created DMO when trying to create a new segment. What is the cause of this issue?
 
 - [ ] Data has not yes been ingested into the DMO.
-- [ ] The new DMO is not of category Profile.
+- [x] The new DMO is not of category Profile.
 - [ ] The new DMO does not have a relationship to the individual DMO.
 - [ ] Segmentation is only supported for the Individual and Unified Individual DMOs.
 
@@ -702,18 +702,18 @@ They do not allow activation of new records.
 - [ ] Deletes the record from all data source objects, and any downstream data model objects are updated at the next schedulet ingestion.
 - [ ] Deletes the specified Individual record and its Unified Individual Link record.
 - [ ] Deletes the specified Individual and records from any data source object mapped to the Individual data model object.
-- [ ] Deletes the specified Individual and records from any data model object/data lake object related to the Individual.
+- [x] Deletes the specified Individual and records from any data model object/data lake object related to the Individual.
 
 ### A healthcare client wants to make use of identity resolution, but does not want to risk unifying profiles that may share certain personally identifying information (PII). Which matching rule criteria should a consultant recommend for the most accurate matching results?
 
-- [ ] Party Identification on Patient ID.
+- [x] Party Identification on Patient ID.
 - [ ] Exact Last Name and Email.
 - [ ] Email Address and Phone.
 - [ ] Fuzzy First Name, Exact Last Name, and Email.
 
 ### A user is not seeing suggested values from newly-modeled data when building a segment. What is causing this issue?
 
-- [ ] Value suggestion is still processing and to be available.
+- [x] Value suggestion is still processing and to be available.
 - [ ] Value suggestion requires Data Aware Specialist permissions at a minimum.
 - [ ] Value suggestion can only work on direct attributes and not related attributes.
 - [ ] Value suggestion will only return result for the first 50 values of a specific attribute.
@@ -723,20 +723,20 @@ They do not allow activation of new records.
 - [ ] Place the attribute for product color in one container and the attribute for product type in another container.
 - [ ] Place an attribute for the "black" calculated insight to dynamically apply.
 - [ ] Place the attributes for product color and product type in a single container.
-- [ ] Place the attributes for product color and product type in a single container.
+- [x] Place the attributes for product color and product type in a single container.
 
 ### Cumulus Financial wants to be able to track the daily transaction volume of each of its customers in real time and send out a notification as soon as it detects volume outside a customer's normal range. What should a consultant do to accommodate this request?
 
 - [ ] Use a calculated insight paired with a flow.
 - [ ] use streaming data transform with a flow.
-- [ ] Use a streaming insight paired with a data action.
+- [x] Use a streaming insight paired with a data action.
 - [ ] Use streaming data transform combined with a data action.
 
 ### Cumulus Financial uses calculated insights to compute the total banking value per branh for its high net worth customers. In the calculated insight, "banking value" is a metric, "branch" is a dimension, and "high net worth" is a filter. What can be included as an attribute in activation?
 
 - [ ] "high net worth" (filter).
 - [ ] "branch" (dimension) and (banking metric).
-- [ ] "banking value" (metric).
+- [x] "banking value" (metric).
 - [ ] "branch" (dimension).
 
 ### Cloud Kicks wants to be able to build a segment of customers who have visited its website within the previous 7 days. Which filter operator on the Engagement Date fields fits this use case?
@@ -744,33 +744,33 @@ They do not allow activation of new records.
 - [ ] Is Between.
 - [ ] Greater than Last Number of.
 - [ ] Next Number of Days.
-- [ ] Last Number of Days.
+- [x] Last Number of Days.
 
 ### Northern Trail Ottfitters unifies individuals in its Data Cloud instance. Which three features ca e consultant use to validate the data on a unified profile? Choose 3 answers
 
-- [ ] Identity Resolution.
+- [x] Identity Resolution.
 - [ ] Query APL.
-- [ ] Data Explorer.
-- [ ] Profile Explorer.
+- [x] Data Explorer.
+- [x] Profile Explorer.
 - [ ] Data Actions.
 
 ### A Data Cloud consultant recently discovered that their indetity resolution process is matching individual that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
 
 - [ ] Modify the existing ruleset with stricter matching criteria, run the ruleset and review the updated results,then adjust as needed unitil the individuals are matching correctly.
-- [ ] Create and run a new rules fewer matching rules, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
+- [x] Create and run a new rules fewer matching rules, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
 - [ ] Create and run a new ruleset with stricter matching criteria, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
 - [ ] Modify the existing ruleset with stricter matching criteria, compare the two rulesets to reviev  and verify the results, and then migrate to the new ruleset once approved.
 
 ### A retail customer wants to bring customer data from different sources and wants to take advantage of identity resolution so that it can be used in segmentation. On which entity should this be segmented for activation mambership?
 
 - [ ] Subscriber.
-- [ ] Unified Individual.
+- [x] Unified Individual.
 - [ ] Unified Contact.
 - [ ] Individual.
 
 ### A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members. Which two areas should the consultant review to help troubleshoot this issue? Choose 2 answers
 
-- [ ] The related engagement events accurred within the last 90 days.
+- [x] The related engagement events accurred within the last 90 days.
 - [ ] The activations are referencing segments that segment on profile data rather than engagement data.
-- [ ] The correct path is selected for the related attributes.
+- [x] The correct path is selected for the related attributes.
 - [ ] The activated profiles have a Unified Contact Point.

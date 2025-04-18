@@ -40,7 +40,7 @@ first or last name.
 
 - [ ] Create a new custom object with fields that directly match the incoming table.
 - [ ] Map all fields to the Customer object.
-- [x] Map name to the Individual object and email address to the Contact Point Email object.
+- [x] Map name to the Individual object and email address to the Contact Phone Email object.
 - [ ] Map all fields to the Individual object, adding a custom field for the email address.
 
 ### A customer wants to use the transactional data from their data warehouse in Data Cloud. They are only able to export the data via an SFTP site. How should the file be brought into Data Cloud?
@@ -550,7 +550,7 @@ They do not allow activation of new records.
 - [ ] Duplicates have been removed from source system data streams.
 - [ ] Identity resolution rules have been removed to reduce the number of matched profiles.
 
-### A client want to bring in lojalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?
+### A client want to bring in loyalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?
 
 - [ ] Clone the data source object.
 - [x] Use batch transforms to create a second data lake object.
@@ -754,12 +754,12 @@ They do not allow activation of new records.
 - [x] Profile Explorer.
 - [ ] Data Actions.
 
-### A Data Cloud consultant recently discovered that their indetity resolution process is matching individual that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
+### A Data Cloud consultant recently discovered that their identity resolution process is matching individual that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
 
-- [ ] Modify the existing ruleset with stricter matching criteria, run the ruleset and review the updated results,then adjust as needed unitil the individuals are matching correctly.
+- [ ] Modify the existing ruleset with stricter matching criteria, run the ruleset and review the updated results,then adjust as needed until the individuals are matching correctly.
 - [x] Create and run a new rules fewer matching rules, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
 - [ ] Create and run a new ruleset with stricter matching criteria, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
-- [ ] Modify the existing ruleset with stricter matching criteria, compare the two rulesets to reviev  and verify the results, and then migrate to the new ruleset once approved.
+- [ ] Modify the existing ruleset with stricter matching criteria, compare the two rulesets to review  and verify the results, and then migrate to the new ruleset once approved.
 
 ### A retail customer wants to bring customer data from different sources and wants to take advantage of identity resolution so that it can be used in segmentation. On which entity should this be segmented for activation mambership?
 

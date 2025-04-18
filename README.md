@@ -39,16 +39,16 @@ first or last name.
 ### A customer has a Master Customer table from their CRM to ingest into Data Cloud. The table contains a name and primary email address, along with other personally identifiable information (PII). How should the fields be mapped to support identity resolution?
 
 - [ ] Create a new custom object with fields that directly match the incoming table.
-- [ ] Map all fields to the Customer object.
-- [x] Map name to the Individual object and email address to the Contact Phone Email object.
-- [ ] Map all fields to the Individual object, adding a custom field for the email address.
+- [ ] Map all fields to the `Customer` object.
+- [x] Map name to the `Individual` object and email address to the `Contact Point Email` object.
+- [ ] Map all fields to the `Individual` object, adding a custom field for the email address.
 
 ### A customer wants to use the transactional data from their data warehouse in Data Cloud. They are only able to export the data via an SFTP site. How should the file be brought into Data Cloud?
 
-- [x] Ingest the file with the SFTP Connector.
-- [ ] Ingest the file through the Cloud Storage Connector.
-- [ ] Manually import the file using the Data Import Wizard.
-- [ ] Use Salesforce's Data Loader application to perform a bulk upload from a desktop.
+- [x] Ingest the file with the `SFTP Connector`.
+- [ ] Ingest the file through the `Cloud Storage Connector`.
+- [ ] Manually import the file using the `Data Import Wizard`.
+- [ ] Use Salesforce's `Data Loader` application to perform a bulk upload from a desktop.
 
 ### Cumulus Financial is currently using Data Cloud and ingesting transactional data from its backend system via an S3 Connector in upsert mode. During the initial setup six months ago, the company created a formula field in Data Cloud to create a custom classification. It now needs to update this formula to account for more classifications. What should the consultant keep in mind with regard to formula field updates when using the S3 Connector?
 
@@ -80,10 +80,10 @@ first or last name.
 
 ### A customer is trying to activate data from Data Cloud to an Amazon S3 Cloud File Storage Bucket. Which authentication type should the consultant recommend to connect to the S3 bucket from Data Cloud?
 
-- [ ] Use an S3 Private Key Certificate.
-- [ ] Use an S3 Encrypted Username and Password.
-- [ ] Use a JWT Token generated on S3.
-- [x] Use an S3 Access Key and Secret Key.
+- [ ] Use an `S3 Private Key Certificate`.
+- [ ] Use an `S3 Encrypted Username and Password`.
+- [ ] Use a `JWT Token` generated on `S3`.
+- [x] Use an `S3 Access Key` and `Secret Key`.
 
 ### Northern Trail Outfitters (NTO) wants to connect their B2C Commerce data with Data Cloud and bring two years of transactional history into Data Cloud. What should NTO use to achieve this?
 
@@ -108,7 +108,7 @@ first or last name.
 
 ### A customer is concerned that the consolidation rate displayed in the identity resolution is quite low compared to their initial estimations. Which configuration change should a consultant consider in order to increase the consolidation rate?
 
-- [ ] Change reconciliation rules to Most Occurring.
+- [ ] Change reconciliation rules to `Most Occurring`.
 - [x] Increase the number of matching rules.
 - [ ] Include additional attributes in the existing matching rules.
 - [ ] Reduce the number of matching rules.
@@ -122,10 +122,10 @@ first or last name.
 
 ### A customer has a requirement to receive a notification whenever an activation fails for a particular segment. Which feature should the consultant use to solution for this use case?
 
-- [ ] Flow.
-- [ ] Report.
-- [x] Activation alert.
-- [ ] Dashboard.
+- [ ] `Flow`.
+- [ ] `Report`.
+- [x] `Activation alert`.
+- [ ] `Dashboard`.
 
 ### Which data model subject area defines the revenue or quantity for an opportunity by product family?
 
@@ -299,9 +299,9 @@ They do not allow activation of new records.
 
 ### A customer notices that their consolidation rate has recently increased. They contact the consultant to ask why. What are two likely explanations for the increase? (Choose two.)
 
-- [ ] Duplicates have been removed from source system data streams.
-- [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
 - [x] New data sources have been added to Data Cloud that largely overlap with the existing profiles.
+- [x] Identity resolution rules have been added to the ruleset to increase the number of matched profiles.
+- [ ] Duplicates have been removed from source system data streams.
 - [ ] Identity resolution rules have been removed to reduce the number of matched profiles.
 
 ### Data Cloud consultant recently discovered that their identity resolution process is matching individuals that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
@@ -594,10 +594,10 @@ They do not allow activation of new records.
 
 ### A customer requests that their personal data be deleted. Which action should the consultant take to accommodate this request in Data Cloud?
 
-- [ ] Use a streaming API call to delete the customer's information.
-- [ ] Use Profile Explorer to delete the customer data from Data Cloud.
-- [ ] Use Consent API to request deletion of the customer's information.
-- [x] Use the Data Rights Subject Request tool to request deletion of the customer's information.
+- [ ] Use a streaming `API` call to delete the customer's information.
+- [ ] Use `Profile Explorer` to delete the customer data from Data Cloud.
+- [ ] Use `Consent API` to request deletion of the customer's information.
+- [x] Use the `Data Rights Subject Request` tool to request deletion of the customer's information.
 
 ### What does the Ignore Empty Value option do in identity resolution?
 
@@ -761,16 +761,16 @@ They do not allow activation of new records.
 - [ ] Create and run a new ruleset with stricter matching criteria, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
 - [ ] Modify the existing ruleset with stricter matching criteria, compare the two rulesets to review  and verify the results, and then migrate to the new ruleset once approved.
 
-### A retail customer wants to bring customer data from different sources and wants to take advantage of identity resolution so that it can be used in segmentation. On which entity should this be segmented for activation mambership?
+### A retail customer wants to bring customer data from different sources and wants to take advantage of identity resolution so that it can be used in segmentation. On which entity should this be segmented for activation membership?
 
-- [ ] Subscriber.
-- [x] Unified Individual.
-- [ ] Unified Contact.
-- [ ] Individual.
+- [ ] `Subscriber`.
+- [x] `Unified Individual`.
+- [ ] `Unified Contact`.
+- [ ] `Individual`.
 
 ### A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members. Which two areas should the consultant review to help troubleshoot this issue? Choose 2 answers
 
 - [x] The related engagement events occurred within the last 90 days.
 - [ ] The activations are referencing segments that segment on profile data rather than engagement data.
 - [x] The correct path is selected for the related attributes.
-- [ ] The activated profiles have a Unified Contact Point.
+- [ ] The activated profiles have a `Unified Contact Point`.

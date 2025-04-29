@@ -6,7 +6,7 @@
 
 | No. | Questions |
 | --- | --------- |
-| 1   | [What does the Source Sequence reconciliation rule do in `Identity Resolution`?](#what-does-the-source-sequence-reconciliation-rule-do-in-identity-resolution) |
+| 1   | [What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?](#what-does-the-source-sequence-reconciliation-rule-do-in-identity-resolution) |
 | 2   | [Cumulus Financial uses `Data Cloud` to segment banking customers and activate them for direct mail via a Cloud File Storage activation. The company also wants to analyze individuals who have been in the segment within the last 2 years. Which `Data Cloud` component allows for this?](#cumulus-financial-uses-data-cloud-to-segment-banking-customers-and-activate-them-for-direct-mail-via-a-cloud-file-storage-activation-the-company-also-wants-to-analyze-individuals-who-have-been-in-the-segment-within-the-last-2-years-which-data-cloud-component-allows-for-this) |
 | 3   | [How can a consultant modify attribute names to match a naming convention in Cloud File Storage targets?](#how-can-a-consultant-modify-attribute-names-to-match-a-naming-convention-in-cloud-file-storage-targets) |
 | 4   | [A customer has a Master Customer table from their CRM to ingest into `Data Cloud`. The table contains a name and primary email address, along with other Personally Identifiable Information (PII). How should the fields be mapped to support `Identity Resolution`?](#a-customer-has-a-master-customer-table-from-their-crm-to-ingest-into-data-cloud-the-table-contains-a-name-and-primary-email-address-along-with-other-personally-identifiable-information-pii-how-should-the-fields-be-mapped-to-support-identity-resolution) |
@@ -97,8 +97,9 @@
 | 89  | [A `Data Cloud` consultant recently discovered that their `Identity Resolution` process is matching individual that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?](#a-data-cloud-consultant-recently-discovered-that-their-identity-resolution-process-is-matching-individual-that-share-email-addresses-or-phone-numbers-but-are-not-actually-the-same-individual-what-should-the-consultant-do-to-address-this-issue) |
 | 90  | [A retail customer wants to bring customer data from different sources and wants to take advantage of `Identity Resolution` so that it can be used in segmentation. On which entity should this be segmented for activation membership?](#a-retail-customer-wants-to-bring-customer-data-from-different-sources-and-wants-to-take-advantage-of-identity-resolution-so-that-it-can-be-used-in-segmentation-on-which-entity-should-this-be-segmented-for-activation-membership) |
 | 91  | [A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members. Which two areas should the consultant review to help troubleshoot this issue?](#a-consultant-is-reviewing-a-recent-activation-using-engagement-based-related-attributes-but-is-not-seeing-any-related-attributes-in-their-payload-for-the-majority-of-their-segment-members-which-two-areas-should-the-consultant-review-to-help-troubleshoot-this-issue) |
+| 92  | [Northern Trail Outfitters uses B2C Commerce and is exploring implementing `Data Cloud` to get a unified view of its customers and all their order transactions. What should the consultant keep in mind with regard to historical data when ingesting order data using the B2C Commerce Order Bundle?](#northern-trail-outfitters-uses-b2c-commerce-and-is-exploring-implementing-data-cloud-to-get-a-unified-view-of-its-customers-and-all-their-order-transactions-what-should-the-consultant-keep-in-mind-with-regard-to-historical-data-when-ingesting-order-data-using-the-b2c-commerce-order-bundle) |
 
-### What does the Source Sequence reconciliation rule do in `Identity Resolution`?
+### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
 - [ ] Includes data from sources where the data is most frequently occurring.
 - [ ] Identifies which individual records should be merged into a unified profile by setting a priority for specific data sources.
@@ -191,10 +192,10 @@ first or last name.
 
 ### Cumulus Financial uses Service Cloud as its CRM and stores `Mobile Phone`, `Home Phone`, and `Work Phone` as three separate fields for its customers on the `Contact` record. The company plans to use `Data Cloud` and ingest the `Contact` object via the CRM Connector. What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?
 
-- [ ] Ingest the `Contact` object and map the `Work Phone`, `Mobile Phone`, and `Home Phone` to the `Contact Point Phone` data map object from the Contact data stream.
-- [x] Ingest the `Contact` object and use streaming transforms to normalize the phone numbers from the Contact data stream into a separate Phone data lake object (DLO) that contains three rows, and then map this new DLO to the `Contact Point Phone` data map object.
+- [ ] Ingest the `Contact` object and map the `Work Phone`, `Mobile Phone`, and `Home Phone` to the `Contact Point Phone` data map object from the `Contact` data stream.
+- [x] Ingest the `Contact` object and use streaming transforms to normalize the phone numbers from the `Contact` data stream into a separate `Phone` data lake object (DLO) that contains three rows, and then map this new DLO to the `Contact Point Phone` data map object.
 - [ ] Ingest the `Contact` object and then create a calculated insight to normalize the phone numbers, and then map to the `Contact Point Phone` data map object.
-- [ ] Ingest the `Contact` object and create formula fields in the Contact data stream on the phone numbers, and then map to the `Contact Point Phone` data map object.
+- [ ] Ingest the `Contact` object and create formula fields in the `Contact` data stream on the phone numbers, and then map to the `Contact Point Phone` data map object.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -326,9 +327,9 @@ first or last name.
 
 ### Where is value suggestion for attributes in segmentation enabled when creating the DMO?
 
-- [ ] Data Mapping.
+- [x] Data Mapping.
 - [ ] Data Transformation.
-- [x] Segment Setup.
+- [ ] Segment Setup.
 - [ ] Data Stream Setup.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -365,7 +366,7 @@ first or last name.
 - [ ] Deactivate the segment.
 - [ ] Delete the segment.
 - [ ] Skip the activation.
-- [x] Stop the publish schedule.
+- [x] Stop the `publish` schedule.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -455,7 +456,7 @@ They do not allow activation of new records.
 
 - [ ] Ensure the activations are set to `Incremental Activation` and automatically publish every hour.
 - [x] Use `Flow` to trigger a change data event on the ecommerce data to refresh calculated insights and segments before the activations are scheduled to run.
-- [ ] Set a refresh schedule for the calculated insights to occur every hour.
+- [ ] Set a `refresh` schedule for the calculated insights to occur every hour.
 - [ ] Ensure the segments are set to `Rapid Publish` and set to refresh every hour.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -826,16 +827,16 @@ They do not allow activation of new records.
 - [ ] Data has not yet been ingested into the DMO.
 - [x] The new DMO is not of category Profile.
 - [ ] The new DMO does not have a relationship to the individual DMO.
-- [ ] Segmentation is only supported for the Individual and `Unified Individual` DMOs.
+- [ ] Segmentation is only supported for the `Individual` and `Unified Individual` DMOs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How does `Data Cloud` handle an individual's `Right to be Forgotten`?
 
-- [ ] Deletes the record from all data source objects, and any downstream Data Model Objects are updated at the next schedulet ingestion.
-- [ ] Deletes the specified Individual record and its `Unified Individual Link` record.
-- [ ] Deletes the specified Individual and records from any data source object mapped to the Individual Data Model Object.
-- [x] Deletes the specified Individual and records from any Data Model Object/data lake object related to the Individual.
+- [ ] Deletes the record from all data source objects, and any downstream Data Model Objects are updated at the next scheduled ingestion.
+- [ ] Deletes the specified `Individual` record and its `Unified Individual Link` record.
+- [ ] Deletes the specified `Individual` and records from any data source object mapped to the `Individual` Data Model Object.
+- [x] Deletes the specified `Individual` and records from any Data Model Object/data lake object related to the `Individual`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -917,5 +918,14 @@ They do not allow activation of new records.
 - [ ] The activations are referencing segments that segment on profile data rather than engagement data.
 - [x] The correct path is selected for the related attributes.
 - [ ] The activated profiles have a `Unified Contact Point`.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Northern Trail Outfitters uses B2C Commerce and is exploring implementing `Data Cloud` to get a unified view of its customers and all their order transactions. What should the consultant keep in mind with regard to historical data when ingesting order data using the B2C Commerce Order Bundle?
+
+- [ ] The B2C Commerce Order Bundle does not ingest any historical data and only ingests new orders from that point on.
+- [x] The B2C Commerce Order Bundle ingests 30 days of historical data.
+- [ ] The B2C Commerce Order Bundle ingests 6 months of historical data.
+- [ ] The B2C Commerce Order Bundle ingests 12 months of historical data.
 
 **[⬆ Back to Top](#table-of-contents)**

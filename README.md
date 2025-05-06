@@ -1,4 +1,6 @@
-# Salesforce Certified Data Cloud Consultant
+# ⬆️ Salesforce Certified Data Cloud Consultant Practice Tests Exams Questions & Answers
+
+![Promotional image](images/promotional.png)
 
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 

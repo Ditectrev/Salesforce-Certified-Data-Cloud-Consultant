@@ -96,7 +96,7 @@
 | 86  | [Cumulus Financial wants to be able to track the daily transaction volume of each of its customers in real time and send out a notification as soon as it detects volume outside a customer's normal range. What should a consultant do to accommodate this request?](#cumulus-financial-wants-to-be-able-to-track-the-daily-transaction-volume-of-each-of-its-customers-in-real-time-and-send-out-a-notification-as-soon-as-it-detects-volume-outside-a-customers-normal-range-what-should-a-consultant-do-to-accommodate-this-request) |
 | 87  | [Cumulus Financial uses calculated insights to compute the total banking value per branh for its high net worth customers. In the calculated insight, `banking value` is a metric, `branch` is a dimension, and `high net worth` is a filter. What can be included as an attribute in activation?](#cumulus-financial-uses-calculated-insights-to-compute-the-total-banking-value-per-branh-for-its-high-net-worth-customers-in-the-calculated-insight-banking-value-is-a-metric-branch-is-a-dimension-and-high-net-worth-is-a-filter-what-can-be-included-as-an-attribute-in-activation) |
 | 88  | [Cloud Kicks wants to be able to build a segment of customers who have visited its website within the previous 7 days. Which filter operator on the `Engagement Date` fields fits this use case?](#cloud-kicks-wants-to-be-able-to-build-a-segment-of-customers-who-have-visited-its-website-within-the-previous-7-days-which-filter-operator-on-the-engagement-date-fields-fits-this-use-case) |
-| 89  | [A `Data Cloud` consultant recently discovered that their `Identity Resolution` process is matching individual that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?](#a-data-cloud-consultant-recently-discovered-that-their-identity-resolution-process-is-matching-individual-that-share-email-addresses-or-phone-numbers-but-are-not-actually-the-same-individual-what-should-the-consultant-do-to-address-this-issue) |
+| 89  | [...](#...) |
 | 90  | [A retail customer wants to bring customer data from different sources and wants to take advantage of `Identity Resolution` so that it can be used in segmentation. On which entity should this be segmented for activation membership?](#a-retail-customer-wants-to-bring-customer-data-from-different-sources-and-wants-to-take-advantage-of-identity-resolution-so-that-it-can-be-used-in-segmentation-on-which-entity-should-this-be-segmented-for-activation-membership) |
 | 91  | [A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members. Which two areas should the consultant review to help troubleshoot this issue?](#a-consultant-is-reviewing-a-recent-activation-using-engagement-based-related-attributes-but-is-not-seeing-any-related-attributes-in-their-payload-for-the-majority-of-their-segment-members-which-two-areas-should-the-consultant-review-to-help-troubleshoot-this-issue) |
 | 92  | [Northern Trail Outfitters uses B2C Commerce and is exploring implementing `Data Cloud` to get a unified view of its customers and all their order transactions. What should the consultant keep in mind with regard to historical data when ingesting order data using the B2C Commerce Order Bundle?](#northern-trail-outfitters-uses-b2c-commerce-and-is-exploring-implementing-data-cloud-to-get-a-unified-view-of-its-customers-and-all-their-order-transactions-what-should-the-consultant-keep-in-mind-with-regard-to-historical-data-when-ingesting-order-data-using-the-b2c-commerce-order-bundle) |
@@ -386,12 +386,11 @@ first or last name.
 - [ ] Marketing Cloud activations apply a frequency cap and limit the number of records that can be sent in an activation.
 - [x] `Data Cloud` enforces the presence of `Contact Point for Marketing Cloud` activations. If the individual does not have a related Contact Point, it will not be activated.
 - [ ] Marketing Cloud activations automatically suppress individuals who are unengaged and have not opened or clicked on an email in the last six months.
-- [ ] Marketing Cloud activations only activate those individuals that already exist in Marketing Cloud.
-They do not allow activation of new records.
+- [ ] Marketing Cloud activations only activate those individuals that already exist in Marketing Cloud. They do not allow activation of new records.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### When creating a segment on an individual, what is the result of using two separate containers linked by an AND as shown below? `GoodsProduct | Count | At Least | 1 Color | Is Equal To | red AND GoodsProduct | Count | At Least | 1 PrimaryProductCategory | Is Equal To | shoes`
+### When creating a segment on an individual, what is the result of using two separate containers linked by an AND as shown below? `GoodsProduct | Count | At Least | 1 Color | Is Equal To | red AND GoodsProduct | Count | At Least | 1 PrimaryProductCategory | Is Equal To | shoes`?
 
 - [x] Individuals who purchased at least one of any `red` product and also purchased at least one pair of `shoes`.
 - [ ] Individuals who purchased at least one `red shoes` as a single line item in a purchase.
@@ -896,12 +895,7 @@ They do not allow activation of new records.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A `Data Cloud` consultant recently discovered that their `Identity Resolution` process is matching individual that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?
-
-- [ ] Modify the existing ruleset with stricter matching criteria, run the ruleset and review the updated results,then adjust as needed until the individuals are matching correctly.
-- [x] Create and run a new rules fewer matching rules, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
-- [ ] Create and run a new ruleset with stricter matching criteria, compare the two rulesets to review and verify the results, and then migrate to the new ruleset once approved.
-- [ ] Modify the existing ruleset with stricter matching criteria, compare the two rulesets to review  and verify the results, and then migrate to the new ruleset once approved.
+### ...
 
 **[⬆ Back to Top](#table-of-contents)**
 

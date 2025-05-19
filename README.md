@@ -58,7 +58,7 @@
 | 48  | [Which information is provided in a `.csv` file when activating to Amazon S3?](#which-information-is-provided-in-a-csv-file-when-activating-to-amazon-s3) |
 | 49  | [Which two common use cases can be addressed with `Data Cloud`?](#which-two-common-use-cases-can-be-addressed-with-data-cloud) |
 | 50  | [Northern Trail Outfitters (NTO) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?](#northern-trail-outfitters-nto-creates-a-calculated-insight-to-compute-recency-frequency-monetary-rfm-scores-on-its-unified-individuals-nto-then-creates-a-segment-based-on-these-scores-that-it-activates-to-a-marketing-cloud-activation-target-which-two-actions-are-required-when-configuring-the-activation) |
-| 51  | [Which data model subject area should be used for any Organization, Individual, or Member in the Customer 360 data model?](#which-data-model-subject-area-should-be-used-for-any-organization-individual-or-member-in-the-customer-360-data-model) |
+| 51  | [Which data model subject area should be used for any `Organization`, `Individual`, or `Member` in the `Customer 360` data model?](#which-data-model-subject-area-should-be-used-for-any-organization-individual-or-member-in-the-customer-360-data-model) |
 | 52  | [The Salesforce CRM Connector is configured and the `Case` object data stream is set up. Subsequently, a new custom field named `Business Priority` is created on the `Case` object in Salesforce CRM. However, the new field is not available when trying to add it to the data stream. Which statement addresses the cause of this issue?](#the-salesforce-crm-connector-is-configured-and-the-case-object-data-stream-is-set-up-subsequently-a-new-custom-field-named-business-priority-is-created-on-the-case-object-in-salesforce-crm-however-the-new-field-is-not-available-when-trying-to-add-it-to-the-data-stream-which-statement-addresses-the-cause-of-this-issue) |
 | 53  | [The marketing manager at Cloud Kicks plans to bring in corporate phone numbers for its accounts into `Data Cloud`. They plan to use a custom field with data set to Phone to store these phone numbers. Which statement is true when ingesting phone numbers?](#the-marketing-manager-at-cloud-kicks-plans-to-bring-in-corporate-phone-numbers-for-its-accounts-into-data-cloud-they-plan-to-use-a-custom-field-with-data-set-to-phone-to-store-these-phone-numbers-which-statement-is-true-when-ingesting-phone-numbers) |
 | 54  | [What is a typical use case for `Salesforce Data Cloud`?](#what-is-a-typical-use-case-for-salesforce-data-cloud) |
@@ -96,10 +96,12 @@
 | 86  | [Cumulus Financial wants to be able to track the daily transaction volume of each of its customers in real time and send out a notification as soon as it detects volume outside a customer's normal range. What should a consultant do to accommodate this request?](#cumulus-financial-wants-to-be-able-to-track-the-daily-transaction-volume-of-each-of-its-customers-in-real-time-and-send-out-a-notification-as-soon-as-it-detects-volume-outside-a-customers-normal-range-what-should-a-consultant-do-to-accommodate-this-request) |
 | 87  | [Cumulus Financial uses calculated insights to compute the total banking value per branh for its high net worth customers. In the calculated insight, `banking value` is a metric, `branch` is a dimension, and `high net worth` is a filter. What can be included as an attribute in activation?](#cumulus-financial-uses-calculated-insights-to-compute-the-total-banking-value-per-branh-for-its-high-net-worth-customers-in-the-calculated-insight-banking-value-is-a-metric-branch-is-a-dimension-and-high-net-worth-is-a-filter-what-can-be-included-as-an-attribute-in-activation) |
 | 88  | [Cloud Kicks wants to be able to build a segment of customers who have visited its website within the previous 7 days. Which filter operator on the `Engagement Date` fields fits this use case?](#cloud-kicks-wants-to-be-able-to-build-a-segment-of-customers-who-have-visited-its-website-within-the-previous-7-days-which-filter-operator-on-the-engagement-date-fields-fits-this-use-case) |
-| 89  | [...](#...) |
+| 89  | [Northern Trail Outfitters (NTO) owns and operates six unique brands, each with their own set of customers, transactions, and loyalty information. The marketing director wants to ensure that segments and activations from the NTO `Outlet` brand do not reference customers or transactions from the other brands. What is the most efficient approach to handle this requirement?](#northern-trail-outfitters-nto-owns-and-operates-six-unique-brands-each-with-their-own-set-of-customers-transactions-and-loyalty-information-the-marketing-director-wants-to-ensure-that-segments-and-activations-from-the-nto-outlet-brand-do-not-reference-customers-or-transactions-from-the-other-brands-what-is-the-most-efficient-approach-to-handle-this-requirement) |
 | 90  | [A retail customer wants to bring customer data from different sources and wants to take advantage of `Identity Resolution` so that it can be used in segmentation. On which entity should this be segmented for activation membership?](#a-retail-customer-wants-to-bring-customer-data-from-different-sources-and-wants-to-take-advantage-of-identity-resolution-so-that-it-can-be-used-in-segmentation-on-which-entity-should-this-be-segmented-for-activation-membership) |
 | 91  | [A consultant is reviewing a recent activation using engagement-based related attributes but is not seeing any related attributes in their payload for the majority of their segment members. Which two areas should the consultant review to help troubleshoot this issue?](#a-consultant-is-reviewing-a-recent-activation-using-engagement-based-related-attributes-but-is-not-seeing-any-related-attributes-in-their-payload-for-the-majority-of-their-segment-members-which-two-areas-should-the-consultant-review-to-help-troubleshoot-this-issue) |
 | 92  | [Northern Trail Outfitters uses B2C Commerce and is exploring implementing `Data Cloud` to get a unified view of its customers and all their order transactions. What should the consultant keep in mind with regard to historical data when ingesting order data using the B2C Commerce Order Bundle?](#northern-trail-outfitters-uses-b2c-commerce-and-is-exploring-implementing-data-cloud-to-get-a-unified-view-of-its-customers-and-all-their-order-transactions-what-should-the-consultant-keep-in-mind-with-regard-to-historical-data-when-ingesting-order-data-using-the-b2c-commerce-order-bundle) |
+| 93  | [A company wants to test its marketing campaigns with different target populations. What should the consultant adjust in the `Segment Canvas` interface to get different populations?](#a-company-wants-to-test-its-marketing-campaigns-with-different-target-populations-what-should-the-consultant-adjust-in-the-segment-canvas-interface-to-get-different-populations)
+| 94  | [Cumulus Financial wants its service agents to view a display of all cases associated with a `Unified Individual` on a contract record. Which two features should a consultant consider for this use case? (Choose two.)](#cumulus-financial-wants-its-service-agents-to-view-a-display-of-all-cases-associated-with-a-unified-individual-on-a-contract-record-which-two-features-should-a-consultant-consider-for-this-use-case-choose-two)
 
 ### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
@@ -553,7 +555,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which data model subject area should be used for any Organization, Individual, or Member in the Customer 360 data model?
+### Which data model subject area should be used for any `Organization`, `Individual`, or `Member` in the `Customer 360` data model?
 
 - [x] `Party`.
 - [ ] `Global Account`.
@@ -895,7 +897,12 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### ...
+### Northern Trail Outfitters (NTO) owns and operates six unique brands, each with their own set of customers, transactions, and loyalty information. The marketing director wants to ensure that segments and activations from the NTO `Outlet` brand do not reference customers or transactions from the other brands. What is the most efficient approach to handle this requirement?
+
+- [ ] Create a baton data transform to generate a DLO for the `Outlet` brand.
+- [x] Separate the `Outlet` brand into a data space.
+- [ ] Separate the brands into six different data spaces.
+- [ ] Use Business Unit Aware activation.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -925,3 +932,22 @@ first or last name.
 - [ ] The B2C Commerce Order Bundle ingests 12 months of historical data.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### A company wants to test its marketing campaigns with different target populations. What should the consultant adjust in the `Segment Canvas` interface to get different populations?
+
+- [ ] Population filters and direct attributes.
+- [ ] Segmentation filters, direct attributions, and data sources.
+- [ ] Direct attributes, related attributes, and population filters.
+- [x] Direct attributes and related attributes.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Cumulus Financial wants its service agents to view a display of all cases associated with a `Unified Individual` on a contract record. Which two features should a consultant consider for this use case? (Choose two.)
+
+- [x] `Query API`.
+- [ ] `Data Action`.
+- [x] `Lightning Web Components`.
+- [ ] `Profile API`.
+
+**[⬆ Back to Top](#table-of-contents)**
+

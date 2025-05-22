@@ -102,6 +102,8 @@
 | 92  | [Northern Trail Outfitters uses B2C Commerce and is exploring implementing `Data Cloud` to get a unified view of its customers and all their order transactions. What should the consultant keep in mind with regard to historical data when ingesting order data using the B2C Commerce Order Bundle?](#northern-trail-outfitters-uses-b2c-commerce-and-is-exploring-implementing-data-cloud-to-get-a-unified-view-of-its-customers-and-all-their-order-transactions-what-should-the-consultant-keep-in-mind-with-regard-to-historical-data-when-ingesting-order-data-using-the-b2c-commerce-order-bundle) |
 | 93  | [A company wants to test its marketing campaigns with different target populations. What should the consultant adjust in the `Segment Canvas` interface to get different populations?](#a-company-wants-to-test-its-marketing-campaigns-with-different-target-populations-what-should-the-consultant-adjust-in-the-segment-canvas-interface-to-get-different-populations)
 | 94  | [Cumulus Financial wants its service agents to view a display of all cases associated with a `Unified Individual` on a contract record. Which two features should a consultant consider for this use case? (Choose two.)](#cumulus-financial-wants-its-service-agents-to-view-a-display-of-all-cases-associated-with-a-unified-individual-on-a-contract-record-which-two-features-should-a-consultant-consider-for-this-use-case-choose-two)
+| 95  | [A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number. To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper `E164` Phone Number format. However, the phone numbers in the file appear to be in varying formats. What is the most efficient way to guarantee that the various phone number formats are standardized?](#a-consultant-is-planning-the-ingestion-of-a-data-stream-that-has-profile-information-including-a-mobile-phone-number-to-ensure-that-the-phone-number-can-be-used-for-future-sms-campaigns-they-need-to-confirm-the-phone-number-field-is-in-the-proper-e164-phone-number-format-however-the-phone-numbers-in-the-file-appear-to-be-in-varying-formats-what-is-the-most-efficient-way-to-guarantee-that-the-various-phone-number-formats-are-standardized)
+| 96  | [Cumulus Financial uses Service Cloud as its CRM and stores mobile phone, home phone, and work phone as three separate fields for its customers on the `Contact` record. The company plans to use `Data Cloud` and ingest the `Contact` object via the CRM Connector. What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?](#cumulus-financial-uses-service-cloud-as-its-crm-and-stores-mobile-phone-home-phone-and-work-phone-as-three-separate-fields-for-its-customers-on-the-contact-record-the-company-plans-to-use-data-cloud-and-ingest-the-contact-object-via-the-crm-connector-what-is-the-most-efficient-approach-that-a-consultant-should-take-when-ingesting-this-data-to-ensure-all-the-different-phone-numbers-are-properly-mapped-and-available-for-use-in-activation)
 
 ### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
@@ -575,7 +577,7 @@ first or last name.
 
 ### The marketing manager at Cloud Kicks plans to bring in corporate phone numbers for its accounts into `Data Cloud`. They plan to use a custom field with data set to Phone to store these phone numbers. Which statement is true when ingesting phone numbers?
 
-- [x] Text value can be accepted for ingestion into = phone data type field.
+- [x] Text value can be accepted for ingestion into a phone data type field.
 - [ ] `Data Cloud` validates the format of the phone number at the time of Ingestion.
 - [ ] The phone number field car only accept 10-digit values.
 - [ ] The phone number field should be used as a primary key.
@@ -951,3 +953,20 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number. To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper `E164` Phone Number format. However, the phone numbers in the file appear to be in varying formats. What is the most efficient way to guarantee that the various phone number formats are standardized?
+
+- [x] Create a formula field to standardize the format.
+- [ ] Create a calculated insight after ingestion.
+- [ ] Edit and update the data in the source system prior to sending to `Data Cloud`.
+- [ ] Assign the `PhoneNumber` field type when creating the data stream.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Cumulus Financial uses Service Cloud as its CRM and stores mobile phone, home phone, and work phone as three separate fields for its customers on the `Contact` record. The company plans to use `Data Cloud` and ingest the `Contact` object via the CRM Connector. What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?
+
+- [ ] Ingest the `Contact` object and map the `Work Phone`, `Mobile Phone`, and `Home Phone` to the `Contact Point Phone` data map object from the `Contact` data stream by adding custom fields for `Work` and `Home Phone`.
+- [x] Ingest the `Contact` object and use streaming transforms to normalize the phone numbers from the `Contact` data stream into a separate `Phone` data lake object (DLO) that contains three rows, and then map this new DLO to the `Contact Point Phone` data map object.
+- [ ] Ingest the `Contact` object and create formula fields in the `Contact` data stream on the phone numbers, and then map to the `Contact Point Phone` data map object.
+- [ ] Ingest the `Contact` object and then create a calculated insight to normalize the phone numbers, and then map to the `Contact Point Phone` data map object.
+
+**[⬆ Back to Top](#table-of-contents)**

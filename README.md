@@ -47,7 +47,7 @@
 | 37  | [Cumulus Financial wants to segregate Salesforce CRM Account data based on `Country` for its `Data Cloud` users. What should the consultant do to accomplish this?](#cumulus-financial-wants-to-segregate-salesforce-crm-account-data-based-on-country-for-its-data-cloud-users-what-should-the-consultant-do-to-accomplish-this) |
 | 38  | [A customer notices that their consolidation rate has recently increased. They contact the consultant to ask why. What are two likely explanations for the increase?](#a-customer-notices-that-their-consolidation-rate-has-recently-increased-they-contact-the-consultant-to-ask-why-what-are-two-likely-explanations-for-the-increase) |
 | 39  | [`Data Cloud` consultant recently discovered that their `Identity Resolution` process is matching individuals that share email addresses or phone numbers, but are not actually the same individual. What should the consultant do to address this issue?](#data-cloud-consultant-recently-discovered-that-their-identity-resolution-process-is-matching-individuals-that-share-email-addresses-or-phone-numbers-but-are-not-actually-the-same-individual-what-should-the-consultant-do-to-address-this-issue) |
-| 40  | [`Data Cloud` receives a nightly file of all ecommerce transactions from the previous day. Several segments and activations depend upon calculated insights from the updated data in order to maintain accuracy in the customer's scheduled campaign messages. What should the consultant do to ensure the ecommerce data is ready for use for each of the scheduled activations?](#data-cloud-receives-a-nightly-file-of-all-ecommerce-transactions-from-the-previous-day-several-segments-and-activations-depend-upon-calculated-insights-from-the-updated-data-in-order-to-maintain-accuracy-in-the-customers-scheduled-campaign-messages-what-should-the-consultant-do-to-ensure-the-ecommerce-data-is-ready-for-use-for-each-of-the-scheduled-activations) |
+| 40  | [`Data Cloud` receives a nightly file of all ecommerce transactions from the previous day. Several segments and activations depend upon Calculated Insights from the updated data in order to maintain accuracy in the customer's scheduled campaign messages. What should the consultant do to ensure the ecommerce data is ready for use for each of the scheduled activations?](#data-cloud-receives-a-nightly-file-of-all-ecommerce-transactions-from-the-previous-day-several-segments-and-activations-depend-upon-calculated-insights-from-the-updated-data-in-order-to-maintain-accuracy-in-the-customers-scheduled-campaign-messages-what-should-the-consultant-do-to-ensure-the-ecommerce-data-is-ready-for-use-for-each-of-the-scheduled-activations) |
 | 41  | [A client wants to bring in loyalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?](#a-client-wants-to-bring-in-loyalty-data-from-a-custom-object-in-salesforce-crm-that-contains-a-point-balance-for-accrued-hotel-points-and-airline-points-within-the-same-record-the-client-wants-to-split-these-point-systems-into-two-separate-records-for-better-tracking-and-processing-what-should-a-consultant-recommend-in-this-scenario) |
 | 42  | [Which operator should a consultant use to create a segment for a birthday campaign that is evaluated daily?](#which-operator-should-a-consultant-use-to-create-a-segment-for-a-birthday-campaign-that-is-evaluated-daily) |
 | 43  | [A new user of `Data Cloud` only needs to be able to review individual rows of ingested data and validate that it has been modeled successfully to its linked Data Model Object. The user will also need to make changes if required. What is the minimum permission set needed to accommodate this use case?](#a-new-user-of-data-cloud-only-needs-to-be-able-to-review-individual-rows-of-ingested-data-and-validate-that-it-has-been-modeled-successfully-to-its-linked-data-model-object-the-user-will-also-need-to-make-changes-if-required-what-is-the-minimum-permission-set-needed-to-accommodate-this-use-case) |
@@ -57,14 +57,14 @@
 | 47  | [A consultant is integrating an Amazon S3 activated campaign with the customer's destination system. In order for the destination system to find the metadata about the segment, which file on the S3 will contain this information for processing?](#a-consultant-is-integrating-an-amazon-s3-activated-campaign-with-the-customers-destination-system-in-order-for-the-destination-system-to-find-the-metadata-about-the-segment-which-file-on-the-s3-will-contain-this-information-for-processing) |
 | 48  | [Which information is provided in a `.csv` file when activating to Amazon S3?](#which-information-is-provided-in-a-csv-file-when-activating-to-amazon-s3) |
 | 49  | [Which two common use cases can be addressed with `Data Cloud`?](#which-two-common-use-cases-can-be-addressed-with-data-cloud) |
-| 50  | [Northern Trail Outfitters (NTO) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?](#northern-trail-outfitters-nto-creates-a-calculated-insight-to-compute-recency-frequency-monetary-rfm-scores-on-its-unified-individuals-nto-then-creates-a-segment-based-on-these-scores-that-it-activates-to-a-marketing-cloud-activation-target-which-two-actions-are-required-when-configuring-the-activation) |
+| 50  | [Northern Trail Outfitters (NTO) creates a Calculated Insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?](#northern-trail-outfitters-nto-creates-a-calculated-insight-to-compute-recency-frequency-monetary-rfm-scores-on-its-unified-individuals-nto-then-creates-a-segment-based-on-these-scores-that-it-activates-to-a-marketing-cloud-activation-target-which-two-actions-are-required-when-configuring-the-activation) |
 | 51  | [Which data model subject area should be used for any `Organization`, `Individual`, or `Member` in the `Customer 360` data model?](#which-data-model-subject-area-should-be-used-for-any-organization-individual-or-member-in-the-customer-360-data-model) |
 | 52  | [The Salesforce CRM Connector is configured and the `Case` object data stream is set up. Subsequently, a new custom field named `Business Priority` is created on the `Case` object in Salesforce CRM. However, the new field is not available when trying to add it to the data stream. Which statement addresses the cause of this issue?](#the-salesforce-crm-connector-is-configured-and-the-case-object-data-stream-is-set-up-subsequently-a-new-custom-field-named-business-priority-is-created-on-the-case-object-in-salesforce-crm-however-the-new-field-is-not-available-when-trying-to-add-it-to-the-data-stream-which-statement-addresses-the-cause-of-this-issue) |
 | 53  | [The marketing manager at Cloud Kicks plans to bring in corporate phone numbers for its accounts into `Data Cloud`. They plan to use a custom field with data set to Phone to store these phone numbers. Which statement is true when ingesting phone numbers?](#the-marketing-manager-at-cloud-kicks-plans-to-bring-in-corporate-phone-numbers-for-its-accounts-into-data-cloud-they-plan-to-use-a-custom-field-with-data-set-to-phone-to-store-these-phone-numbers-which-statement-is-true-when-ingesting-phone-numbers) |
 | 54  | [What is a typical use case for `Salesforce Data Cloud`?](#what-is-a-typical-use-case-for-salesforce-data-cloud) |
 | 55  | [A consultant needs to create a data graph based on several DLOs, Which step should the consultant take to make this work?](#a-consultant-needs-to-create-a-data-graph-based-on-several-dlos-which-step-should-the-consultant-take-to-make-this-work) |
 | 56  | [Northern Trail Outfitters wants to create a segment with customers that have purchased in the last 24 hours. The segment data must be as up to date as possible. What should the consultant Implement when creating the segment?](#northern-trail-outfitters-wants-to-create-a-segment-with-customers-that-have-purchased-in-the-last-24-hours-the-segment-data-must-be-as-up-to-date-as-possible-what-should-the-consultant-implement-when-creating-the-segment) |
-| 57  | [An analyst from Cloud Kicks needs to get quick Insights to determine the average sales per day during the past week.What should a consultant recommend?](#an-analyst-from-cloud-kicks-needs-to-get-quick-insights-to-determine-the-average-sales-per-day-during-the-past-weekwhat-should-a-consultant-recommend) |
+| 57  | [An analyst from Cloud Kicks needs to get quick insights to determine the average sales per day during the past week. What should a consultant recommend?](#an-analyst-from-cloud-kicks-needs-to-get-quick-insights-to-determine-the-average-sales-per-day-during-the-past-weekwhat-should-a-consultant-recommend) |
 | 58  | [During an implementation project, a consultant completed ingestion of all data streams for their customer. Prior to segmenting and acting on that data, which additional configuration is required?](#during-an-implementation-project-a-consultant-completed-ingestion-of-all-data-streams-for-their-customer-prior-to-segmenting-and-acting-on-that-data-which-additional-configuration-is-required) |
 | 59  | [Northern Trail Qutfitters wants to be able to calculate each customer's lifetime value (LTV) but also create breakdowns of the revenue sourced by website, mobile app, and retail channels. What should a consultant use to address this use case in `Data Cloud`?](#northern-trail-qutfitters-wants-to-be-able-to-calculate-each-customers-lifetime-value-ltv-but-also-create-breakdowns-of-the-revenue-sourced-by-website-mobile-app-and-retail-channels-what-should-a-consultant-use-to-address-this-use-case-in-data-cloud) |
 | 60  | [A consultant wants to ensure that every segment managed by multiple brand teams adheres to the same set of axclusion criteria, that are updated on a monthly basis. What is the most efficient option to allow for this capability?](#a-consultant-wants-to-ensure-that-every-segment-managed-by-multiple-brand-teams-adheres-to-the-same-set-of-axclusion-criteria-that-are-updated-on-a-monthly-basis-what-is-the-most-efficient-option-to-allow-for-this-capability) |
@@ -75,14 +75,14 @@
 | 65  | [An organization wants to enable users with the ability to identify and select text attributes from a picklist of options. Which `Data Cloud` feature should help with this use case?](#an-organization-wants-to-enable-users-with-the-ability-to-identify-and-select-text-attributes-from-a-picklist-of-options-which-data-cloud-feature-should-help-with-this-use-case) |
 | 66  | [A consultant is working in a customer's `Data Cloud` org and is asked to delete the existing `Identity Resolution` ruleset. Which two impacts should the consultant communicate as a result of this action?](#a-consultant-is-working-in-a-customers-data-cloud-org-and-is-asked-to-delete-the-existing-identity-resolution-ruleset-which-two-impacts-should-the-consultant-communicate-as-a-result-of-this-action) |
 | 67  | [Northern Trail Outfitters uploads new customer data to an Amazon S3 Bucket on a daily basis to be ingested in `Data Cloud`. In what order should each process be run to ensure that freshly imported data is ready and available to use for any segment?](#northern-trail-outfitters-uploads-new-customer-data-to-an-amazon-s3-bucket-on-a-daily-basis-to-be-ingested-in-data-cloud-in-what-order-should-each-process-be-run-to-ensure-that-freshly-imported-data-is-ready-and-available-to-use-for-any-segment) |
-| 68  | [Which two requirements must be met for a calculated insight to appear in the segmentation canvas?](#which-two-requirements-must-be-met-for-a-calculated-insight-to-appear-in-the-segmentation-canvas) |
+| 68  | [Which two requirements must be met for a Calculated Insight to appear in the segmentation canvas?](#which-two-requirements-must-be-met-for-a-calculated-insight-to-appear-in-the-segmentation-canvas) |
 | 69  | [A customer requests that their personal data be deleted. Which action should the consultant take to accommodate this request in `Data Cloud`?](#a-customer-requests-that-their-personal-data-be-deleted-which-action-should-the-consultant-take-to-accommodate-this-request-in-data-cloud) |
 | 70  | [What does the Ignore Empty Value option do in `Identity Resolution`?](#what-does-the-ignore-empty-value-option-do-in-identity-resolution) |
 | 71  | [Northern Trail Outfitters (NTO) is configuring an `Identity Resolution` ruleset based on `Fuzzy Name` and `Normalized Email`. What should NTO do to ensure the best email address is activated?](#northern-trail-outfitters-nto-is-configuring-an-identity-resolution-ruleset-based-on-fuzzy-name-and-normalized-email-what-should-nto-do-to-ensure-the-best-email-address-is-activated) |
 | 72  | [A customer wants to create segments of users based on their `Customer Lifetime Value`. However, the source data that will be brought into `Data Cloud` does not include that key performance indicator (KPI). Which sequence of steps should the consultant follow to achieve this requirement?](#a-customer-wants-to-create-segments-of-users-based-on-their-customer-lifetime-value-however-the-source-data-that-will-be-brought-into-data-cloud-does-not-include-that-key-performance-indicator-kpi-which-sequence-of-steps-should-the-consultant-follow-to-achieve-this-requirement) |
 | 73  | [During discovery, which feature should a consultant highlight for a customer who has multiple data sources and needs to match and reconcile data about individuals into a single unified profile?](#during-discovery-which-feature-should-a-consultant-highlight-for-a-customer-who-has-multiple-data-sources-and-needs-to-match-and-reconcile-data-about-individuals-into-a-single-unified-profile) |
 | 74  | [Northern Trail Outfitters (NTO) wants to send a promotional campaign for customers that have purchased within the past 6 months. The consultant created a segment to meet this requirement. Now, NTO brings an additional requirement to suppress customers who have made purchases within the last week. What should the consultant use to remove the recent customers?](#northern-trail-outfitters-nto-wants-to-send-a-promotional-campaign-for-customers-that-have-purchased-within-the-past-6-months-the-consultant-created-a-segment-to-meet-this-requirement-now-nto-brings-an-additional-requirement-to-suppress-customers-who-have-made-purchases-within-the-last-week-what-should-the-consultant-use-to-remove-the-recent-customers) |
-| 75  | [Which data stream category should be assigned to use the data for time-based operations is segmentation and calculated insights?](#which-data-stream-category-should-be-assigned-to-use-the-data-for-time-based-operations-is-segmentation-and-calculated-insights) |
+| 75  | [Which data stream category should be assigned to use the data for time-based operations is segmentation and Calculated Insights?](#which-data-stream-category-should-be-assigned-to-use-the-data-for-time-based-operations-is-segmentation-and-calculated-insights) |
 | 76  | [Which method should a consultant use when performing aggregations in windows of 15 minutes on data collected via the Interaction SDK or Mobile SDK?](#which-method-should-a-consultant-use-when-performing-aggregations-in-windows-of-15-minutes-on-data-collected-via-the-interaction-sdk-or-mobile-sdk) |
 | 77  | [A customer has a custom `Customer Email c` object related to the standard `Contact` object in Salesforce CRM. This custom object stores the email address a Contact that they want to use for activation. To which data entity is mapped?](#a-customer-has-a-custom-customer-email-c-object-related-to-the-standard-contact-object-in-salesforce-crm-this-custom-object-stores-the-email-address-a-contact-that-they-want-to-use-for-activation-to-which-data-entity-is-mapped) |
 | 78  | [Every day, Northern Trail Outfitters uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than seven days are automatically deleted. Each file contains a timestamp in a standardizel naming convention. Which two options should a consultant configure when ingesting this data stream?](#every-day-northern-trail-outfitters-uploads-a-summary-of-the-last-24-hours-of-store-transactions-to-a-new-file-in-an-amazon-s3-bucket-and-files-older-than-seven-days-are-automatically-deleted-each-file-contains-a-timestamp-in-a-standardizel-naming-convention-which-two-options-should-a-consultant-configure-when-ingesting-this-data-stream) |
@@ -94,7 +94,7 @@
 | 84  | [A user is not seeing suggested values from newly-modeled data when building a segment. What is causing this issue?](#a-user-is-not-seeing-suggested-values-from-newly-modeled-data-when-building-a-segment-what-is-causing-this-issue) |
 | 85  | [A consultant is building a segment to announce a new product launch for customers that have previously purchased black pants. How should the consultant place attributes for product color and product type from the `Order Product` object to meet this criteria?](#a-consultant-is-building-a-segment-to-announce-a-new-product-launch-for-customers-that-have-previously-purchased-black-pants-how-should-the-consultant-place-attributes-for-product-color-and-product-type-from-the-order-product-object-to-meet-this-criteria) |
 | 86  | [Cumulus Financial wants to be able to track the daily transaction volume of each of its customers in real time and send out a notification as soon as it detects volume outside a customer's normal range. What should a consultant do to accommodate this request?](#cumulus-financial-wants-to-be-able-to-track-the-daily-transaction-volume-of-each-of-its-customers-in-real-time-and-send-out-a-notification-as-soon-as-it-detects-volume-outside-a-customers-normal-range-what-should-a-consultant-do-to-accommodate-this-request) |
-| 87  | [Cumulus Financial uses calculated insights to compute the total banking value per branh for its high net worth customers. In the calculated insight, `banking value` is a metric, `branch` is a dimension, and `high net worth` is a filter. What can be included as an attribute in activation?](#cumulus-financial-uses-calculated-insights-to-compute-the-total-banking-value-per-branh-for-its-high-net-worth-customers-in-the-calculated-insight-banking-value-is-a-metric-branch-is-a-dimension-and-high-net-worth-is-a-filter-what-can-be-included-as-an-attribute-in-activation) |
+| 87  | [Cumulus Financial uses Calculated Insights to compute the total banking value per branh for its high net worth customers. In the Calculated Insight, `banking value` is a metric, `branch` is a dimension, and `high net worth` is a filter. What can be included as an attribute in activation?](#cumulus-financial-uses-calculated-insights-to-compute-the-total-banking-value-per-branh-for-its-high-net-worth-customers-in-the-calculated-insight-banking-value-is-a-metric-branch-is-a-dimension-and-high-net-worth-is-a-filter-what-can-be-included-as-an-attribute-in-activation) |
 | 88  | [Cloud Kicks wants to be able to build a segment of customers who have visited its website within the previous 7 days. Which filter operator on the `Engagement Date` fields fits this use case?](#cloud-kicks-wants-to-be-able-to-build-a-segment-of-customers-who-have-visited-its-website-within-the-previous-7-days-which-filter-operator-on-the-engagement-date-fields-fits-this-use-case) |
 | 89  | [Northern Trail Outfitters (NTO) owns and operates six unique brands, each with their own set of customers, transactions, and loyalty information. The marketing director wants to ensure that segments and activations from the NTO `Outlet` brand do not reference customers or transactions from the other brands. What is the most efficient approach to handle this requirement?](#northern-trail-outfitters-nto-owns-and-operates-six-unique-brands-each-with-their-own-set-of-customers-transactions-and-loyalty-information-the-marketing-director-wants-to-ensure-that-segments-and-activations-from-the-nto-outlet-brand-do-not-reference-customers-or-transactions-from-the-other-brands-what-is-the-most-efficient-approach-to-handle-this-requirement) |
 | 90  | [A retail customer wants to bring customer data from different sources and wants to take advantage of `Identity Resolution` so that it can be used in segmentation. On which entity should this be segmented for activation membership?](#a-retail-customer-wants-to-bring-customer-data-from-different-sources-and-wants-to-take-advantage-of-identity-resolution-so-that-it-can-be-used-in-segmentation-on-which-entity-should-this-be-segmented-for-activation-membership) |
@@ -103,7 +103,7 @@
 | 93  | [A company wants to test its marketing campaigns with different target populations. What should the consultant adjust in the `Segment Canvas` interface to get different populations?](#a-company-wants-to-test-its-marketing-campaigns-with-different-target-populations-what-should-the-consultant-adjust-in-the-segment-canvas-interface-to-get-different-populations)
 | 94  | [Cumulus Financial wants its service agents to view a display of all cases associated with a `Unified Individual` on a contract record. Which two features should a consultant consider for this use case? (Choose two.)](#cumulus-financial-wants-its-service-agents-to-view-a-display-of-all-cases-associated-with-a-unified-individual-on-a-contract-record-which-two-features-should-a-consultant-consider-for-this-use-case-choose-two)
 | 95  | [A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number. To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper `E164` Phone Number format. However, the phone numbers in the file appear to be in varying formats. What is the most efficient way to guarantee that the various phone number formats are standardized?](#a-consultant-is-planning-the-ingestion-of-a-data-stream-that-has-profile-information-including-a-mobile-phone-number-to-ensure-that-the-phone-number-can-be-used-for-future-sms-campaigns-they-need-to-confirm-the-phone-number-field-is-in-the-proper-e164-phone-number-format-however-the-phone-numbers-in-the-file-appear-to-be-in-varying-formats-what-is-the-most-efficient-way-to-guarantee-that-the-various-phone-number-formats-are-standardized)
-| 96  | [Cumulus Financial uses Service Cloud as its CRM and stores mobile phone, home phone, and work phone as three separate fields for its customers on the `Contact` record. The company plans to use `Data Cloud` and ingest the `Contact` object via the CRM Connector. What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?](#cumulus-financial-uses-service-cloud-as-its-crm-and-stores-mobile-phone-home-phone-and-work-phone-as-three-separate-fields-for-its-customers-on-the-contact-record-the-company-plans-to-use-data-cloud-and-ingest-the-contact-object-via-the-crm-connector-what-is-the-most-efficient-approach-that-a-consultant-should-take-when-ingesting-this-data-to-ensure-all-the-different-phone-numbers-are-properly-mapped-and-available-for-use-in-activation)
+| 96  | [A consultant notices that the unified individual profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?](#a-consultant-notices-that-the-unified-individual-profile-is-not-storing-the-latest-email-address-which-action-should-the-consultant-take-to-troubleshoot-this-issue)
 
 ### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
@@ -200,7 +200,7 @@ first or last name.
 
 - [ ] Ingest the `Contact` object and map the `Work Phone`, `Mobile Phone`, and `Home Phone` to the `Contact Point Phone` data map object from the `Contact` data stream.
 - [x] Ingest the `Contact` object and use streaming transforms to normalize the phone numbers from the `Contact` data stream into a separate `Phone` data lake object (DLO) that contains three rows, and then map this new DLO to the `Contact Point Phone` data map object.
-- [ ] Ingest the `Contact` object and then create a calculated insight to normalize the phone numbers, and then map to the `Contact Point Phone` data map object.
+- [ ] Ingest the `Contact` object and then create a Calculated Insight to normalize the phone numbers, and then map to the `Contact Point Phone` data map object.
 - [ ] Ingest the `Contact` object and create formula fields in the `Contact` data stream on the phone numbers, and then map to the `Contact Point Phone` data map object.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -271,7 +271,7 @@ first or last name.
 ### Cumulus Financial created a segment called `High Investment Balance Customers`. This is a foundational segment that includes several segmentation criteria the marketing team should consistently use. Which feature should the consultant suggest the marketing team use to ensure this consistency when creating future, more refined segments?
 
 - [x] Create new segments using nested segments.
-- [ ] Create a `High Investment Balance` calculated insight.
+- [ ] Create a `High Investment Balance` Calculated Insight.
 - [ ] Package `High Investment Balance Customers` in a data kit.
 - [ ] Create new segments by cloning `High Investment Balance Customers`.
 
@@ -423,10 +423,10 @@ first or last name.
 
 ### A consultant has an activation that is set to publish every 12 hours, but has discovered that updates to the data prior to activation are delayed by up to 24 hours. Which two areas should a consultant review to troubleshoot this issue?
 
-- [ ] Review data transformations to ensure they're run after calculated insights.
-- [ ] Review calculated insights to make sure they're run after the segments are refreshed.
+- [ ] Review data transformations to ensure they're run after Calculated Insights.
+- [ ] Review Calculated Insights to make sure they're run after the segments are refreshed.
 - [x] Review segments to ensure they're refreshed after the data is ingested.
-- [x] Review calculated insights to make sure they're run before segments are refreshed.
+- [x] Review Calculated Insights to make sure they're run before segments are refreshed.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -457,11 +457,11 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### `Data Cloud` receives a nightly file of all ecommerce transactions from the previous day. Several segments and activations depend upon calculated insights from the updated data in order to maintain accuracy in the customer's scheduled campaign messages. What should the consultant do to ensure the ecommerce data is ready for use for each of the scheduled activations?
+### `Data Cloud` receives a nightly file of all ecommerce transactions from the previous day. Several segments and activations depend upon Calculated Insights from the updated data in order to maintain accuracy in the customer's scheduled campaign messages. What should the consultant do to ensure the ecommerce data is ready for use for each of the scheduled activations?
 
 - [ ] Ensure the activations are set to `Incremental Activation` and automatically publish every hour.
-- [x] Use `Flow` to trigger a change data event on the ecommerce data to refresh calculated insights and segments before the activations are scheduled to run.
-- [ ] Set a `refresh` schedule for the calculated insights to occur every hour.
+- [x] Use `Flow` to trigger a change data event on the ecommerce data to refresh Calculated Insights and segments before the activations are scheduled to run.
+- [ ] Set a `refresh` schedule for the Calculated Insights to occur every hour.
 - [ ] Ensure the segments are set to `Rapid Publish` and set to refresh every hour.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -548,12 +548,12 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Northern Trail Outfitters (NTO) creates a calculated insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?
+### Northern Trail Outfitters (NTO) creates a Calculated Insight to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?
 
 - [x] Select contact points.
 - [ ] Add additional attributes.
 - [x] Choose a segment.
-- [ ] Add the calculated insight in the activation.
+- [ ] Add the Calculated Insight in the activation.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -611,7 +611,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An analyst from Cloud Kicks needs to get quick Insights to determine the average sales per day during the past week.What should a consultant recommend?
+### An analyst from Cloud Kicks needs to get quick insights to determine the average sales per day during the past week. What should a consultant recommend?
 
 - [ ] Salesforce flows.
 - [ ] Lightning web component utilizing `Query API`.
@@ -649,14 +649,14 @@ first or last name.
 
 ### A customer needs to integrate in real time with Salesforce CRM. Which feature accomplishes this requirement?
 
-- [ ] Streaming transforms.
+- [x] Streaming transforms.
 - [ ] Data model triggers.
 - [ ] Sales and Service bundle.
 - [ ] `Data Actions` and Lightning web components.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A user wants to be able to create a multi-dimensional metric to identify `Unified Individual` lifetime value (LTV). Which sequence of Data Model Object (DMO) joins is necessary within the calculated Insight to enable this calculation?
+### A user wants to be able to create a multi-dimensional metric to identify `Unified Individual` lifetime value (LTV). Which sequence of Data Model Object (DMO) joins is necessary within the Calculated Insight to enable this calculation?
 
 - [x] `Unified Individual` > `Unified Link Individual` > `Sales Order`.
 - [ ] `Unified Individual` > `Individual` > `Sales Order`.
@@ -677,7 +677,7 @@ first or last name.
 ### A segment fails to refresh with the error `Segment references too many data lake objects (DLOs)`. Which two troubleshooting tips should help remedy this issue?
 
 - [ ] Split the segment into smaller segments.
-- [ ] Use calculated insights in order to reduce the complexity of the segmentation query.
+- [ ] Use Calculated Insights in order to reduce the complexity of the segmentation query.
 - [x] Refine segmentation criteria to limit up to five custom Data Model Objects (DMOs).
 - [x] Space out the segment schedules to reduce DLO load.
 
@@ -710,12 +710,12 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which two requirements must be met for a calculated insight to appear in the segmentation canvas?
+### Which two requirements must be met for a Calculated Insight to appear in the segmentation canvas?
 
-- [x] The calculated insight must contain a dimension including the `Individual` or `Unified Individual ID`.
-- [x] The primary key of the segmented table must be a dimension in the calculated insight.
-- [ ] The metrics of the calculated insights must only contain numeric values.
-- [ ] The primary key of the segmented table must be a metric in the calculated insight.
+- [x] The Calculated Insight must contain a dimension including the `Individual` or `Unified Individual ID`.
+- [x] The primary key of the segmented table must be a dimension in the Calculated Insight.
+- [ ] The metrics of the Calculated Insights must only contain numeric values.
+- [ ] The primary key of the segmented table must be a metric in the Calculated Insight.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -773,7 +773,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which data stream category should be assigned to use the data for time-based operations is segmentation and calculated insights?
+### Which data stream category should be assigned to use the data for time-based operations is segmentation and Calculated Insights?
 
 - [ ] `Individual`.
 - [ ] `Transaction`.
@@ -866,7 +866,7 @@ first or last name.
 ### A consultant is building a segment to announce a new product launch for customers that have previously purchased black pants. How should the consultant place attributes for product color and product type from the `Order Product` object to meet this criteria?
 
 - [ ] Place the attribute for product color in one container and the attribute for product type in another container.
-- [ ] Place an attribute for the `black` calculated insight to dynamically apply.
+- [ ] Place an attribute for the `black` Calculated Insight to dynamically apply.
 - [ ] Place the attributes for product color and product type in a single container.
 - [x] Place the attributes for product color and product type in a single container.
 
@@ -874,14 +874,14 @@ first or last name.
 
 ### Cumulus Financial wants to be able to track the daily transaction volume of each of its customers in real time and send out a notification as soon as it detects volume outside a customer's normal range. What should a consultant do to accommodate this request?
 
-- [ ] Use a calculated insight paired with a flow.
+- [ ] Use a Calculated Insight paired with a flow.
 - [ ] use streaming data transform with a flow.
 - [x] Use a streaming insight paired with a data action.
 - [ ] Use streaming data transform combined with a data action.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Cumulus Financial uses calculated insights to compute the total banking value per branh for its high net worth customers. In the calculated insight, `banking value` is a metric, `branch` is a dimension, and `high net worth` is a filter. What can be included as an attribute in activation?
+### Cumulus Financial uses Calculated Insights to compute the total banking value per branh for its high net worth customers. In the Calculated Insight, `banking value` is a metric, `branch` is a dimension, and `high net worth` is a filter. What can be included as an attribute in activation?
 
 - [ ] `high net worth` (filter).
 - [ ] `branch` (dimension) and (banking metric).
@@ -956,17 +956,17 @@ first or last name.
 ### A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number. To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper `E164` Phone Number format. However, the phone numbers in the file appear to be in varying formats. What is the most efficient way to guarantee that the various phone number formats are standardized?
 
 - [x] Create a formula field to standardize the format.
-- [ ] Create a calculated insight after ingestion.
+- [ ] Create a Calculated Insight after ingestion.
 - [ ] Edit and update the data in the source system prior to sending to `Data Cloud`.
 - [ ] Assign the `PhoneNumber` field type when creating the data stream.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Cumulus Financial uses Service Cloud as its CRM and stores mobile phone, home phone, and work phone as three separate fields for its customers on the `Contact` record. The company plans to use `Data Cloud` and ingest the `Contact` object via the CRM Connector. What is the most efficient approach that a consultant should take when ingesting this data to ensure all the different phone numbers are properly mapped and available for use in activation?
+### A consultant notices that the unified individual profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?
 
-- [ ] Ingest the `Contact` object and map the `Work Phone`, `Mobile Phone`, and `Home Phone` to the `Contact Point Phone` data map object from the `Contact` data stream by adding custom fields for `Work` and `Home Phone`.
-- [x] Ingest the `Contact` object and use streaming transforms to normalize the phone numbers from the `Contact` data stream into a separate `Phone` data lake object (DLO) that contains three rows, and then map this new DLO to the `Contact Point Phone` data map object.
-- [ ] Ingest the `Contact` object and create formula fields in the `Contact` data stream on the phone numbers, and then map to the `Contact Point Phone` data map object.
-- [ ] Ingest the `Contact` object and then create a calculated insight to normalize the phone numbers, and then map to the `Contact Point Phone` data map object.
+- [x] Confirm that the reconciliation rules are correctly used.
+- [ ] Check if the mapping of DLO objects is correct to `Contact Point Email`.
+- [ ] Remove any old email addresses from Salesforce CRM.
+- [ ] Verify and update the email address in the source systems if needed.
 
 **[⬆ Back to Top](#table-of-contents)**

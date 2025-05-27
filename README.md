@@ -83,9 +83,9 @@
 | 73  | [During discovery, which feature should a consultant highlight for a customer who has multiple data sources and needs to match and reconcile data about individuals into a single unified profile?](#during-discovery-which-feature-should-a-consultant-highlight-for-a-customer-who-has-multiple-data-sources-and-needs-to-match-and-reconcile-data-about-individuals-into-a-single-unified-profile) |
 | 74  | [Northern Trail Outfitters (NTO) wants to send a promotional campaign for customers that have purchased within the past 6 months. The consultant created a segment to meet this requirement. Now, NTO brings an additional requirement to suppress customers who have made purchases within the last week. What should the consultant use to remove the recent customers?](#northern-trail-outfitters-nto-wants-to-send-a-promotional-campaign-for-customers-that-have-purchased-within-the-past-6-months-the-consultant-created-a-segment-to-meet-this-requirement-now-nto-brings-an-additional-requirement-to-suppress-customers-who-have-made-purchases-within-the-last-week-what-should-the-consultant-use-to-remove-the-recent-customers) |
 | 75  | [Which data stream category should be assigned to use the data for time-based operations is segmentation and `Calculated Insights`?](#which-data-stream-category-should-be-assigned-to-use-the-data-for-time-based-operations-is-segmentation-and-calculated-insights) |
-| 76  | [Which method should a consultant use when performing aggregations in windows of 15 minutes on data collected via the Interaction SDK or Mobile SDK?](#which-method-should-a-consultant-use-when-performing-aggregations-in-windows-of-15-minutes-on-data-collected-via-the-interaction-sdk-or-mobile-sdk) |
+| 76  | [Which method should a consultant use when performing aggregations in windows of 15 minutes on data collected via the `Interaction SDK` or `Mobile SDK`?](#which-method-should-a-consultant-use-when-performing-aggregations-in-windows-of-15-minutes-on-data-collected-via-the-interaction-sdk-or-mobile-sdk) |
 | 77  | [A customer has a custom `Customer Email c` object related to the standard `Contact` object in Salesforce CRM. This custom object stores the email address a Contact that they want to use for activation. To which data entity is mapped?](#a-customer-has-a-custom-customer-email-c-object-related-to-the-standard-contact-object-in-salesforce-crm-this-custom-object-stores-the-email-address-a-contact-that-they-want-to-use-for-activation-to-which-data-entity-is-mapped) |
-| 78  | [Every day, Northern Trail Outfitters uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than seven days are automatically deleted. Each file contains a timestamp in a standardizel naming convention. Which two options should a consultant configure when ingesting this data stream?](#every-day-northern-trail-outfitters-uploads-a-summary-of-the-last-24-hours-of-store-transactions-to-a-new-file-in-an-amazon-s3-bucket-and-files-older-than-seven-days-are-automatically-deleted-each-file-contains-a-timestamp-in-a-standardizel-naming-convention-which-two-options-should-a-consultant-configure-when-ingesting-this-data-stream) |
+| 78  | [Every day, Northern Trail Outfitters uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than seven days are automatically deleted. Each file contains a timestamp in a standardized naming convention. Which two options should a consultant configure when ingesting this data stream?](#every-day-northern-trail-outfitters-uploads-a-summary-of-the-last-24-hours-of-store-transactions-to-a-new-file-in-an-amazon-s3-bucket-and-files-older-than-seven-days-are-automatically-deleted-each-file-contains-a-timestamp-in-a-standardized-naming-convention-which-two-options-should-a-consultant-configure-when-ingesting-this-data-stream) |
 | 79  | [Which solution provides an easy way to ingest `Marketing Cloud` subscriber profile attributes into `Data Cloud` on a daily basis?](#which-solution-provides-an-easy-way-to-ingest-marketing-cloud-subscriber-profile-attributes-into-data-cloud-on-a-daily-basis) |
 | 80  | [A customer has a requirement to be able to view the last time each segment was published within their `Data Cloud` org. Which two features should the consultant recommend to best address this requirement?](#a-customer-has-a-requirement-to-be-able-to-view-the-last-time-each-segment-was-published-within-their-data-cloud-org-which-two-features-should-the-consultant-recommend-to-best-address-this-requirement) |
 | 81  | [A `Data Cloud` consultant recently added a new data source and mapped some of the data to a new custom Data Model Object (DMO) that they want to use for creating segments. However, they cannot view the newly created DMO when trying to create a new segment. What is the cause of this issue?](#a-data-cloud-consultant-recently-added-a-new-data-source-and-mapped-some-of-the-data-to-a-new-custom-data-model-object-dmo-that-they-want-to-use-for-creating-segments-however-they-cannot-view-the-newly-created-dmo-when-trying-to-create-a-new-segment-what-is-the-cause-of-this-issue) |
@@ -105,6 +105,7 @@
 | 95  | [A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number. To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper `E164` Phone Number format. However, the phone numbers in the file appear to be in varying formats. What is the most efficient way to guarantee that the various phone number formats are standardized?](#a-consultant-is-planning-the-ingestion-of-a-data-stream-that-has-profile-information-including-a-mobile-phone-number-to-ensure-that-the-phone-number-can-be-used-for-future-sms-campaigns-they-need-to-confirm-the-phone-number-field-is-in-the-proper-e164-phone-number-format-however-the-phone-numbers-in-the-file-appear-to-be-in-varying-formats-what-is-the-most-efficient-way-to-guarantee-that-the-various-phone-number-formats-are-standardized)
 | 96  | [A consultant notices that the unified individual profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?](#a-consultant-notices-that-the-unified-individual-profile-is-not-storing-the-latest-email-address-which-action-should-the-consultant-take-to-troubleshoot-this-issue)
 | 97  | [A customer has a `Calculated Insight` about lifetime value. What does the consultant need to be aware of if the `Calculated Insight` needs to be modified?](#a-customer-has-a-calculated-insight-about-lifetime-value-what-does-the-consultant-need-to-be-aware-of-if-the-calculated-insight-needs-to-be-modified)
+| 98  | [Every day, Northern Trail Outfitters (NTO) uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than 7 days are automatically deleted. Each file contains a timestamp in a standardized naming convention. What should a consultant consider when ingesting this data stream?](#every-day-northern-trail-outfitters-nto-uploads-a-summary-of-the-last-24-hours-of-store-transactions-to-a-new-file-in-an-amazon-s3-bucket-and-files-older-than-7-days-are-automatically-deleted-each-file-contains-a-timestamp-in-a-standardized-naming-convention-what-should-a-consultant-consider-when-ingesting-this-data-stream)
 
 ### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
@@ -121,7 +122,7 @@ first or last name.
 - [ ] Segment exclusion.
 - [ ] Nested segments.
 - [x] Segment membership Data Model Object.
-- [ ] `Calculated insights`.
+- [ ] `Calculated Insights`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -469,7 +470,7 @@ first or last name.
 
 ### A client wants to bring in loyalty data from a custom object in Salesforce CRM that contains a point balance for accrued hotel points and airline points within the same record. The client wants to split these point systems into two separate records for better tracking and processing. What should a consultant recommend in this scenario?
 
-- [x] Use batch transforms to create a second data lake object.
+- [x] Use `s` to create a second data lake object.
 - [ ] Create a junction object in Salesforce CRM and modify the ingestion strategy.
 - [ ] Clone the data source object.
 - [ ] Create a data kit from the data lake object and deploy it to the same `Data Cloud` org.
@@ -599,13 +600,13 @@ first or last name.
 - [ ] Use a data action to update the data graph with the DLO data.
 - [x] Map the DLOS to DMOS and use these in the data graph.
 - [ ] Map the DLOs directly to a data graph.
-- [ ] Batch transform the DLOs to multiple DMOs and activate these with the data graph.
+- [ ] `Batch Transform` the DLOs to multiple DMOs and activate these with the data graph.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Northern Trail Outfitters wants to create a segment with customers that have purchased in the last 24 hours. The segment data must be as up to date as possible. What should the consultant Implement when creating the segment?
 
-- [x] Use streaming insights for near real-time segmentation results.
+- [x] Use `Streaming Insights` for near real-time segmentation results.
 - [ ] Use Einstein segmentation optimization to collect data from the last 24 hours.
 - [ ] Use rapid segments with a publish interval of 1 hour.
 - [ ] Use standard segment with a publish interval of 30 minutes.
@@ -767,10 +768,10 @@ first or last name.
 
 ### Northern Trail Outfitters (NTO) wants to send a promotional campaign for customers that have purchased within the past 6 months. The consultant created a segment to meet this requirement. Now, NTO brings an additional requirement to suppress customers who have made purchases within the last week. What should the consultant use to remove the recent customers?
 
-- [ ] Batch transforms.
+- [ ] `Batch Transforms`.
 - [x] Segmentation exclude rules.
 - [ ] Related attributes.
-- [ ] Streaming insight.
+- [ ] `Streaming Insight`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -778,16 +779,16 @@ first or last name.
 
 - [ ] `Individual`.
 - [ ] `Transaction`.
-- [x] `Sales Order`.
-- [ ] `Engagement`.
+- [ ] `Sales Order`.
+- [x] `Engagement`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which method should a consultant use when performing aggregations in windows of 15 minutes on data collected via the Interaction SDK or Mobile SDK?
+### Which method should a consultant use when performing aggregations in windows of 15 minutes on data collected via the `Interaction SDK` or `Mobile SDK`?
 
-- [ ] Batch transform.
-- [ ] `Calculated insight`.
-- [x] Streaming insight.
+- [ ] `Batch Transform`.
+- [ ] `Calculated Insight`.
+- [x] `Streaming Insight`.
 - [ ] Formula fields.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -801,7 +802,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Every day, Northern Trail Outfitters uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than seven days are automatically deleted. Each file contains a timestamp in a standardizel naming convention. Which two options should a consultant configure when ingesting this data stream?
+### Every day, Northern Trail Outfitters uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than seven days are automatically deleted. Each file contains a timestamp in a standardized naming convention. Which two options should a consultant configure when ingesting this data stream?
 
 - [ ] Ensure that deletion of old files is enabled.
 - [x] Ensure the refresh mode is set to `Upsert`.
@@ -877,7 +878,7 @@ first or last name.
 
 - [ ] Use a `Calculated Insight` paired with a flow.
 - [ ] use streaming data transform with a flow.
-- [x] Use a streaming insight paired with a data action.
+- [x] Use a `Streaming Insight` paired with a data action.
 - [ ] Use streaming data transform combined with a data action.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -978,5 +979,14 @@ first or last name.
 - [ ] New measures can be added.
 - [x] Existing dimensions can be removed.
 - [ ] Existing measures can be removed.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Every day, Northern Trail Outfitters (NTO) uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than 7 days are automatically deleted. Each file contains a timestamp in a standardized naming convention. What should a consultant consider when ingesting this data stream?
+
+- [x] Ensure the refresh mode is set to `Upsert and Refresh only new files` is selected.
+- [ ] Ensure the refresh mode is set to `Full Refresh` and the filename containsa wildcard to accommodate the timestamp.
+- [ ] Ensure the refresh mode is set to `Full Refresh` and `Refresh only new files` is selected.
+- [ ] Advise NTO to change their processes: this configuration is not supported.
 
 **[⬆ Back to Top](#table-of-contents)**

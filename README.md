@@ -33,13 +33,13 @@
 | 23  | [Which consideration related to the way `Data Cloud` ingests CRM data is true?](#which-consideration-related-to-the-way-data-cloud-ingests-crm-data-is-true) |
 | 24  | [During a privacy law discussion with a customer, the customer indicates they need to honor requests for the `Right to be Forgotten`. The consultant determines that `Consent API` will solve this business need. Which two considerations should the consultant inform the customer about?](#during-a-privacy-law-discussion-with-a-customer-the-customer-indicates-they-need-to-honor-requests-for-the-right-to-be-forgotten-the-consultant-determines-that-consent-api-will-solve-this-business-need-which-two-considerations-should-the-consultant-inform-the-customer-about) |
 | 25  | [Which permission setting should a consultant check if the custom Salesforce CRM object is not available in New Data Stream configuration?](#which-permission-setting-should-a-consultant-check-if-the-custom-salesforce-crm-object-is-not-available-in-new-data-stream-configuration) |
-| 26  | [Where is value suggestion for attributes in segmentation enabled when creating the DMO?](#where-is-value-suggestion-for-attributes-in-segmentation-enabled-when-creating-the-dmo) |
+| 26  | [Where is `Value Suggestion` for attributes in segmentation enabled when creating the DMO?](#where-is-value-suggestion-for-attributes-in-segmentation-enabled-when-creating-the-dmo) |
 | 27  | [Which two steps should a consultant take if a successfully configured Amazon S3 data stream fails to refresh with a `NO FILE FOUND` error message?](#which-two-steps-should-a-consultant-take-if-a-successfully-configured-amazon-s3-data-stream-fails-to-refresh-with-a-no-file-found-error-message) |
 | 28  | [What is the result of a segmentation criteria filtering on `City \| Is Equal To \| 'San José'`?](#what-is-the-result-of-a-segmentation-criteria-filtering-on-city--is-equal-to--san-josé) |
 | 29  | [Northern Trail Outfitters wants to use some of its `Marketing Cloud data` in `Data Cloud`. Which engagement channel data will require custom integration?](#northern-trail-outfitters-wants-to-use-some-of-its-marketing-cloud-data-in-data-cloud-which-engagement-channel-data-will-require-custom-integration) |
 | 30  | [What should a user do to pause a segment activation with the intent of using that segment again?](#what-should-a-user-do-to-pause-a-segment-activation-with-the-intent-of-using-that-segment-again) |
 | 31  | [Which configuration supports separate Amazon S3 buckets for data ingestion and activation?](#which-configuration-supports-separate-amazon-s3-buckets-for-data-ingestion-and-activation) |
-| 32  | [Luxury Retailers created a segment targeting high value customers that it activates through Marketing Cloud for email communication. The company notices that the activated count is smaller than the segment count. What is a reason for this?](#luxury-retailers-created-a-segment-targeting-high-value-customers-that-it-activates-through-marketing-cloud-for-email-communication-the-company-notices-that-the-activated-count-is-smaller-than-the-segment-count-what-is-a-reason-for-this) |
+| 32  | [Luxury Retailers created a segment targeting high value customers that it activates through `Marketing Cloud` for email communication. The company notices that the activated count is smaller than the segment count. What is a reason for this?](#luxury-retailers-created-a-segment-targeting-high-value-customers-that-it-activates-through-marketing-cloud-for-email-communication-the-company-notices-that-the-activated-count-is-smaller-than-the-segment-count-what-is-a-reason-for-this) |
 | 33  | [When creating a segment on an individual, what is the result of using two separate containers linked by an AND as shown below? `GoodsProduct \| Count \| At Least \| 1 Color \| Is Equal To \| red AND GoodsProduct \| Count \| At Least \| 1 PrimaryProductCategory \| Is Equal To \| shoes`](#when-creating-a-segment-on-an-individual-what-is-the-result-of-using-two-separate-containers-linked-by-an-and-as-shown-below-goodsproduct--count--at-least--1-color--is-equal-to--red-and-goodsproduct--count--at-least--1-primaryproductcategory--is-equal-to--shoes) |
 | 34  | [Cloud Kicks received a `Request to be Forgotten` by a customer. In which two ways should a consultant use `Data Cloud` to honor this request?](#cloud-kicks-received-a-request-to-be-forgotten-by-a-customer-in-which-two-ways-should-a-consultant-use-data-cloud-to-honor-this-request) |
 | 35  | [A retailer wants to unify profiles using Loyalty ID which is different than the unique ID of their customers. Which object should the consultant use in `Identity Resolution` to perform exact match rules on the Loyalty ID?](#a-retailer-wants-to-unify-profiles-using-loyalty-id-which-is-different-than-the-unique-id-of-their-customers-which-object-should-the-consultant-use-in-identity-resolution-to-perform-exact-match-rules-on-the-loyalty-id) |
@@ -57,7 +57,7 @@
 | 47  | [A consultant is integrating an Amazon S3 activated campaign with the customer's destination system. In order for the destination system to find the metadata about the segment, which file on the S3 will contain this information for processing?](#a-consultant-is-integrating-an-amazon-s3-activated-campaign-with-the-customers-destination-system-in-order-for-the-destination-system-to-find-the-metadata-about-the-segment-which-file-on-the-s3-will-contain-this-information-for-processing) |
 | 48  | [Which information is provided in a `.csv` file when activating to Amazon S3?](#which-information-is-provided-in-a-csv-file-when-activating-to-amazon-s3) |
 | 49  | [Which two common use cases can be addressed with `Data Cloud`?](#which-two-common-use-cases-can-be-addressed-with-data-cloud) |
-| 50  | [Northern Trail Outfitters (NTO) creates a `Calculated Insight` to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?](#northern-trail-outfitters-nto-creates-a-calculated-insight-to-compute-recency-frequency-monetary-rfm-scores-on-its-unified-individuals-nto-then-creates-a-segment-based-on-these-scores-that-it-activates-to-a-marketing-cloud-activation-target-which-two-actions-are-required-when-configuring-the-activation) |
+| 50  | [Northern Trail Outfitters (NTO) creates a `Calculated Insight` to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a `Marketing Cloud` activation target. Which two actions are required when configuring the activation?](#northern-trail-outfitters-nto-creates-a-calculated-insight-to-compute-recency-frequency-monetary-rfm-scores-on-its-unified-individuals-nto-then-creates-a-segment-based-on-these-scores-that-it-activates-to-a-marketing-cloud-activation-target-which-two-actions-are-required-when-configuring-the-activation) |
 | 51  | [Which data model subject area should be used for any `Organization`, `Individual`, or `Member` in the `Customer 360` data model?](#which-data-model-subject-area-should-be-used-for-any-organization-individual-or-member-in-the-customer-360-data-model) |
 | 52  | [The Salesforce CRM Connector is configured and the `Case` object data stream is set up. Subsequently, a new custom field named `Business Priority` is created on the `Case` object in Salesforce CRM. However, the new field is not available when trying to add it to the data stream. Which statement addresses the cause of this issue?](#the-salesforce-crm-connector-is-configured-and-the-case-object-data-stream-is-set-up-subsequently-a-new-custom-field-named-business-priority-is-created-on-the-case-object-in-salesforce-crm-however-the-new-field-is-not-available-when-trying-to-add-it-to-the-data-stream-which-statement-addresses-the-cause-of-this-issue) |
 | 53  | [The marketing manager at Cloud Kicks plans to bring in corporate phone numbers for its accounts into `Data Cloud`. They plan to use a custom field with data set to Phone to store these phone numbers. Which statement is true when ingesting phone numbers?](#the-marketing-manager-at-cloud-kicks-plans-to-bring-in-corporate-phone-numbers-for-its-accounts-into-data-cloud-they-plan-to-use-a-custom-field-with-data-set-to-phone-to-store-these-phone-numbers-which-statement-is-true-when-ingesting-phone-numbers) |
@@ -106,6 +106,7 @@
 | 96  | [A consultant notices that the unified individual profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?](#a-consultant-notices-that-the-unified-individual-profile-is-not-storing-the-latest-email-address-which-action-should-the-consultant-take-to-troubleshoot-this-issue)
 | 97  | [A customer has a `Calculated Insight` about lifetime value. What does the consultant need to be aware of if the `Calculated Insight` needs to be modified?](#a-customer-has-a-calculated-insight-about-lifetime-value-what-does-the-consultant-need-to-be-aware-of-if-the-calculated-insight-needs-to-be-modified)
 | 98  | [Every day, Northern Trail Outfitters (NTO) uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than 7 days are automatically deleted. Each file contains a timestamp in a standardized naming convention. What should a consultant consider when ingesting this data stream?](#every-day-northern-trail-outfitters-nto-uploads-a-summary-of-the-last-24-hours-of-store-transactions-to-a-new-file-in-an-amazon-s3-bucket-and-files-older-than-7-days-are-automatically-deleted-each-file-contains-a-timestamp-in-a-standardized-naming-convention-what-should-a-consultant-consider-when-ingesting-this-data-stream)
+| 99  | [A consultant needs to publish segment data to the Audience DMO that can be retrieved using the Query APIs. When creating the activation target, which type of target should the consultant select?](#a-consultant-needs-to-publish-segment-data-to-the-audience-dmo-that-can-be-retrieved-using-the-query-apis-when-creating-the-activation-target-which-type-of-target-should-the-consultant-select)
 
 ### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
@@ -266,7 +267,7 @@ first or last name.
 - [x] Map the primary key from the two systems to `Party` Identification, using `CRM ID` as the identification name for both.
 - [ ] Map the primary key from the two systems to `Party` Identification, using `CRM ID` as the identification name for individuals coming from the CRM, and `Marketing ID` as the identification name for individuals coming from the marketing platform.
 - [ ] Create a custom matching rule for an exact match on the `Individual ID` attribute.
-- [x] Create a matching rule based on party identification that matches on `CRM ID` as the party identification name.
+- [x] Create a matching rule based on `Party Identification` that matches on `CRM ID` as the party identification name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -333,7 +334,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Where is value suggestion for attributes in segmentation enabled when creating the DMO?
+### Where is `Value Suggestion` for attributes in segmentation enabled when creating the DMO?
 
 - [x] Data Mapping.
 - [ ] Data Transformation.
@@ -387,12 +388,12 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Luxury Retailers created a segment targeting high value customers that it activates through Marketing Cloud for email communication. The company notices that the activated count is smaller than the segment count. What is a reason for this?
+### Luxury Retailers created a segment targeting high value customers that it activates through `Marketing Cloud` for email communication. The company notices that the activated count is smaller than the segment count. What is a reason for this?
 
-- [ ] Marketing Cloud activations apply a frequency cap and limit the number of records that can be sent in an activation.
-- [x] `Data Cloud` enforces the presence of `Contact Point for Marketing Cloud` activations. If the individual does not have a related Contact Point, it will not be activated.
-- [ ] Marketing Cloud activations automatically suppress individuals who are unengaged and have not opened or clicked on an email in the last six months.
-- [ ] Marketing Cloud activations only activate those individuals that already exist in Marketing Cloud. They do not allow activation of new records.
+- [ ] `Marketing Cloud` activations apply a frequency cap and limit the number of records that can be sent in an activation.
+- [x] `Data Cloud` enforces the presence of `Contact Point for `Marketing Cloud`` activations. If the individual does not have a related Contact Point, it will not be activated.
+- [ ] `Marketing Cloud` activations automatically suppress individuals who are unengaged and have not opened or clicked on an email in the last six months.
+- [ ] `Marketing Cloud` activations only activate those individuals that already exist in `Marketing Cloud`. They do not allow activation of new records.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -498,7 +499,7 @@ first or last name.
 ### A consultant is discussing the benefits of `Data Cloud` with a customer that has multiple disjointed data sources. Which two functional areas should the consultant highlight in relation to managing customer data?
 
 - [x] Unified Profiles.
-- [x] Data Harmonization.
+- [x] `Data Harmonization`.
 - [ ] Master Data Management.
 - [ ] Data Marketplace.
 
@@ -550,7 +551,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Northern Trail Outfitters (NTO) creates a `Calculated Insight` to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a Marketing Cloud activation target. Which two actions are required when configuring the activation?
+### Northern Trail Outfitters (NTO) creates a `Calculated Insight` to compute recency, frequency, monetary (RFM) scores on its unified individuals. NTO then creates a segment based on these scores that it activates to a `Marketing Cloud` activation target. Which two actions are required when configuring the activation?
 
 - [x] Select contact points.
 - [ ] Add additional attributes.
@@ -590,7 +591,7 @@ first or last name.
 
 - [ ] Data synchronization across the Salesforce ecosystem.
 - [ ] Storing CRM data on promises.
-- [x] Data harmonization across multiple platforms.
+- [x] `Data Harmonization` across multiple platforms.
 - [ ] Sending personalized emails at scale.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -687,8 +688,8 @@ first or last name.
 
 ### An organization wants to enable users with the ability to identify and select text attributes from a picklist of options. Which `Data Cloud` feature should help with this use case?
 
-- [x] Value suggestion.
-- [ ] Data harmonization.
+- [x] `Value Suggestion`.
+- [ ] `Data Harmonization`.
 - [ ] Transformation formulas.
 - [ ] Global picklists.
 
@@ -759,9 +760,9 @@ first or last name.
 
 ### During discovery, which feature should a consultant highlight for a customer who has multiple data sources and needs to match and reconcile data about individuals into a single unified profile?
 
-- [x] Data Cleansing.
-- [ ] Harmonization.
-- [ ] Data Consolidation.
+- [x] `Data Cleansing`.
+- [ ] `Harmonization`.
+- [ ] `Data Consolidation`.
 - [ ] `Identity Resolution`.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -832,7 +833,7 @@ first or last name.
 ### A `Data Cloud` consultant recently added a new data source and mapped some of the data to a new custom Data Model Object (DMO) that they want to use for creating segments. However, they cannot view the newly created DMO when trying to create a new segment. What is the cause of this issue?
 
 - [ ] Data has not yet been ingested into the DMO.
-- [x] The new DMO is not of category Profile.
+- [x] The new DMO is not of category `Profile`.
 - [ ] The new DMO does not have a relationship to the individual DMO.
 - [ ] Segmentation is only supported for the `Individual` and `Unified Individual` DMOs.
 
@@ -858,10 +859,10 @@ first or last name.
 
 ### A user is not seeing suggested values from newly-modeled data when building a segment. What is causing this issue?
 
-- [x] Value suggestion is still processing and to be available.
-- [ ] Value suggestion requires `Data Aware Specialist` permissions at a minimum.
-- [ ] Value suggestion can only work on direct attributes and not related attributes.
-- [ ] Value suggestion will only return result for the first 50 values of a specific attribute.
+- [x] `Value Suggestion` is still processing and to be available.
+- [ ] `Value Suggestion` requires `Data Aware Specialist` permissions at a minimum.
+- [ ] `Value Suggestion` can only work on direct attributes and not related attributes.
+- [ ] `Value Suggestion` will only return result for the first 50 values of a specific attribute.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -988,5 +989,14 @@ first or last name.
 - [ ] Ensure the refresh mode is set to `Full Refresh` and the filename containsa wildcard to accommodate the timestamp.
 - [ ] Ensure the refresh mode is set to `Full Refresh` and `Refresh only new files` is selected.
 - [ ] Advise NTO to change their processes: this configuration is not supported.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A consultant needs to publish segment data to the Audience DMO that can be retrieved using the Query APIs. When creating the activation target, which type of target should the consultant select?
+
+- [ ] `External Activation Target`.
+- [ ] `Marketing Cloud`.
+- [ ] `Marketing Cloud Personalization`.
+- [x] `Data Cloud`.
 
 **[⬆ Back to Top](#table-of-contents)**

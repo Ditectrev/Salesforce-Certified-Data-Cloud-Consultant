@@ -859,7 +859,7 @@ first or last name.
 
 ### A user is not seeing suggested values from newly-modeled data when building a segment. What is causing this issue?
 
-- [x] `Value Suggestion` is still processing and to be available.
+- [x] `Value Suggestion` is still processing and takes up to 24 hours to be available.
 - [ ] `Value Suggestion` requires `Data Aware Specialist` permissions at a minimum.
 - [ ] `Value Suggestion` can only work on direct attributes and not related attributes.
 - [ ] `Value Suggestion` will only return result for the first 50 values of a specific attribute.
@@ -869,7 +869,7 @@ first or last name.
 ### A consultant is building a segment to announce a new product launch for customers that have previously purchased black pants. How should the consultant place attributes for product color and product type from the `Order Product` object to meet this criteria?
 
 - [ ] Place the attribute for product color in one container and the attribute for product type in another container.
-- [ ] Place an attribute for the `black` `Calculated Insight` to dynamically apply.
+- [ ] Place an attribute for the `black pants` `Calculated Insight` to dynamically apply.
 - [ ] Place the attributes for product color and product type in a single container.
 - [x] Place the attributes for product color and product type in a single container.
 
@@ -907,7 +907,7 @@ first or last name.
 - [ ] Create a baton data transform to generate a DLO for the `Outlet` brand.
 - [x] Separate the `Outlet` brand into a data space.
 - [ ] Separate the brands into six different data spaces.
-- [ ] Use Business Unit Aware activation.
+- [ ] Use `Business Unit Aware` activation.
 
 **[⬆ Back to Top](#table-of-contents)**
 

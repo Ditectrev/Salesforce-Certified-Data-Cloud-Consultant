@@ -949,10 +949,10 @@ first or last name.
 
 ### Cumulus Financial wants its service agents to view a display of all cases associated with a `Unified Individual` on a contract record. Which two features should a consultant consider for this use case? (Choose two.)
 
-- [x] `Query API`.
+- [ ] `Query API`.
 - [ ] `Data Action`.
 - [x] `Lightning Web Components`.
-- [ ] `Profile API`.
+- [x] `Profile API`.
 
 **[⬆ Back to Top](#table-of-contents)**
 

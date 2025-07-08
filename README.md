@@ -103,10 +103,10 @@
 | 93  | [A company wants to test its marketing campaigns with different target populations. What should the consultant adjust in the `Segment Canvas` interface to get different populations?](#a-company-wants-to-test-its-marketing-campaigns-with-different-target-populations-what-should-the-consultant-adjust-in-the-segment-canvas-interface-to-get-different-populations)
 | 94  | [Cumulus Financial wants its service agents to view a display of all cases associated with a `Unified Individual` on a contract record. Which two features should a consultant consider for this use case? (Choose two.)](#cumulus-financial-wants-its-service-agents-to-view-a-display-of-all-cases-associated-with-a-unified-individual-on-a-contract-record-which-two-features-should-a-consultant-consider-for-this-use-case-choose-two)
 | 95  | [A consultant is planning the ingestion of a data stream that has profile information including a mobile phone number. To ensure that the phone number can be used for future SMS campaigns, they need to confirm the phone number field is in the proper `E164` Phone Number format. However, the phone numbers in the file appear to be in varying formats. What is the most efficient way to guarantee that the various phone number formats are standardized?](#a-consultant-is-planning-the-ingestion-of-a-data-stream-that-has-profile-information-including-a-mobile-phone-number-to-ensure-that-the-phone-number-can-be-used-for-future-sms-campaigns-they-need-to-confirm-the-phone-number-field-is-in-the-proper-e164-phone-number-format-however-the-phone-numbers-in-the-file-appear-to-be-in-varying-formats-what-is-the-most-efficient-way-to-guarantee-that-the-various-phone-number-formats-are-standardized)
-| 96  | [A consultant notices that the unified individual profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?](#a-consultant-notices-that-the-unified-individual-profile-is-not-storing-the-latest-email-address-which-action-should-the-consultant-take-to-troubleshoot-this-issue)
+| 96  | [A consultant notices that the `Unified Individual` profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?](#a-consultant-notices-that-the-unified-individual-profile-is-not-storing-the-latest-email-address-which-action-should-the-consultant-take-to-troubleshoot-this-issue)
 | 97  | [A customer has a `Calculated Insight` about lifetime value. What does the consultant need to be aware of if the `Calculated Insight` needs to be modified?](#a-customer-has-a-calculated-insight-about-lifetime-value-what-does-the-consultant-need-to-be-aware-of-if-the-calculated-insight-needs-to-be-modified)
 | 98  | [Every day, Northern Trail Outfitters (NTO) uploads a summary of the last 24 hours of store transactions to a new file in an Amazon S3 bucket, and files older than 7 days are automatically deleted. Each file contains a timestamp in a standardized naming convention. What should a consultant consider when ingesting this data stream?](#every-day-northern-trail-outfitters-nto-uploads-a-summary-of-the-last-24-hours-of-store-transactions-to-a-new-file-in-an-amazon-s3-bucket-and-files-older-than-7-days-are-automatically-deleted-each-file-contains-a-timestamp-in-a-standardized-naming-convention-what-should-a-consultant-consider-when-ingesting-this-data-stream)
-| 99  | [A consultant needs to publish segment data to the Audience DMO that can be retrieved using the Query APIs. When creating the activation target, which type of target should the consultant select?](#a-consultant-needs-to-publish-segment-data-to-the-audience-dmo-that-can-be-retrieved-using-the-query-apis-when-creating-the-activation-target-which-type-of-target-should-the-consultant-select)
+| 99  | [A consultant needs to publish segment data to the `Audience` DMO that can be retrieved using the Query APIs. When creating the activation target, which type of target should the consultant select?](#a-consultant-needs-to-publish-segment-data-to-the-audience-dmo-that-can-be-retrieved-using-the-query-apis-when-creating-the-activation-target-which-type-of-target-should-the-consultant-select)
 
 ### What does the `Source Sequence` reconciliation rule do in `Identity Resolution`?
 
@@ -965,10 +965,10 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A consultant notices that the unified individual profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?
+### A consultant notices that the `Unified Individual` profile is not storing the latest email address. Which action should the consultant take to troubleshoot this issue?
 
-- [x] Confirm that the reconciliation rules are correctly used.
-- [ ] Check if the mapping of DLO objects is correct to `Contact Point Email`.
+- [ ] Confirm that the reconciliation rules are correctly used.
+- [x] Check if the mapping of DLO objects is correct to `Contact Point Email`.
 - [ ] Remove any old email addresses from Salesforce CRM.
 - [ ] Verify and update the email address in the source systems if needed.
 
@@ -992,7 +992,7 @@ first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A consultant needs to publish segment data to the Audience DMO that can be retrieved using the Query APIs. When creating the activation target, which type of target should the consultant select?
+### A consultant needs to publish segment data to the `Audience` DMO that can be retrieved using the Query APIs. When creating the activation target, which type of target should the consultant select?
 
 - [ ] `External Activation Target`.
 - [ ] `Marketing Cloud`.

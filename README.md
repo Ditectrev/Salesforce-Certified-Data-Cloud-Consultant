@@ -21,6 +21,7 @@
    - Identity Resolution;
    - Marketing Cloud;
    - Query API;
+   - Salesforce API;
    - Segmentation;
    - Streaming Insights;
    - Unified Individual;

@@ -6,13 +6,13 @@
 
 There are many ways to support us; in exchange, you'll get this material in a proper format:
 
-- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/),
-- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/),
-- 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/),
-- 📚 [Google Play Books, in PDF format, with answers marked](https://play.google.com/),
-- 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/),
-- 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com),
-- 🛍️ [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com),
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/salesforce-certified-data-cloud-consultant-practice-tests-exams-questions-answers),
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/salesforce-certified-data-cloud-consultant-practice-tests-exams-questions-no-answers),
+- 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/salesforce-certified-data-cloud-consultant-practice-exams-v/?referralCode=2B727ED71363905575D7),
+- 📚 [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/author?id=Daniel+Danielecki),
+- 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/author?id=Daniel+Danielecki),
+- 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/4346211866),
+- 🛍️ [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/4346217475),
 - 🛒 [eBay, in PDF format, with answers marked](https://ebay.us/m/odNp0F),
 - 🛒 [eBay, in PDF format, without answers marked](https://ebay.us/m/Ac7ACv),
 - 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
@@ -200,8 +200,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Includes data from sources where the data is most frequently occurring.
 - [ ] Identifies which individual records should be merged into a unified profile by setting a priority for specific data sources.
 - [ ] Identifies which data sources should be used in the process of reconcillation by prioritizing the most recently updated data sourc.
-- [x] Sets the priority of specific data sources when building attributes in a unified profile, such as a
-first or last name.
+- [x] Sets the priority of specific data sources when building attributes in a unified profile, such as a first or last name.
 
 **[⬆ Back to Top](#table-of-contents)**
 

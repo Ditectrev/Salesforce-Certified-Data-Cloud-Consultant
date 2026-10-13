@@ -10,7 +10,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/salesforce-certified-data-cloud-consultant-practice-tests-exams-questions-no-answers),
 - 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/salesforce-certified-data-cloud-consultant-practice-exams-v/?referralCode=2B727ED71363905575D7),
 - 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too), with answers marked](https://www.amazon.com//Daniel-Danielecki-ebook/dp/B0FLK1LWBX),
-- 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too), without answers marked](www.amazon.com//Daniel-Danielecki-ebook/dp/B0FLV3N9KT),
+- 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too), without answers marked](https://www.amazon.com//Daniel-Danielecki-ebook/dp/B0FLV3N9KT),
 - 📚 [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/details?id=rll3EQAAQBAJ),
 - 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=4lh3EQAAQBAJ),
 - 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/4346211866),
